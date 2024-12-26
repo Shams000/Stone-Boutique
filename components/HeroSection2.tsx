@@ -49,38 +49,26 @@ const HeroSection2 = () => {
         <SwiperSlide>
           <div
             className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
-            style={{ backgroundImage: "url('/Hero Slider.jpg')" }}
+            style={{ backgroundImage: "url('/Rectangle 1.jpg')" }}
           >
-            <div className="absolute top-[50%] left-[50%] group">
-              <div className="w-[40px] h-[40px] bg-[#AE6C3E] border-4 border-[#E4C9AF] rounded-full hover:scale-110 transition-transform duration-300 ease-in-out"></div>
+            <div className="absolute top-[50%] left-[40%] group">
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 rounded shadow-lg transition-opacity duration-500">
-                Premium Quality
+                Superior Craftsmanship
               </div>
             </div>
+            
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div
             className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
-            style={{ backgroundImage: "url('/Hero Slider2.jpg')" }}
+            style={{ backgroundImage: "url('/Rectangle 2.jpg')" }}
           >
-            <div className="absolute top-[45%] left-[20%] group">
-              <div className="w-[40px] h-[40px] bg-[#AE6C3E] border-4 border-[#E4C9AF] rounded-full hover:scale-110 transition-transform duration-300 ease-in-out"></div>
-              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 rounded shadow-lg transition-opacity duration-500">
-                Elegant Designs
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
-            style={{ backgroundImage: "url('/Hero Slider3.jpg')" }}
-          >
-            <div className="absolute top-[20%] left-[60%] group">
-              <div className="w-[30px] h-[30px] bg-[#AE6C3E] border-4 border-[#E4C9AF] rounded-full hover:scale-110 transition-transform duration-300 ease-in-out"></div>
+    
+            <div className="absolute bottom-[20%] left-[60%] group">
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 rounded shadow-lg transition-opacity duration-500">
                 Superior Craftsmanship
               </div>
@@ -91,9 +79,28 @@ const HeroSection2 = () => {
         <SwiperSlide>
           <div
             className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
-            style={{ backgroundImage: "url('/Hero Slider4.jpg')" }}
+            style={{ backgroundImage: "url('/Rectangle 3.jpg')" }}
           >
-            
+            <div className="absolute top-[20%] right-[20%] group">
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 rounded shadow-lg transition-opacity duration-500">
+                Superior Craftsmanship
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div
+            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            style={{ backgroundImage: "url('/Rectangle 4.jpg')" }}
+          >
+            <div className="absolute top-[20%] left-[60%] group">
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 rounded shadow-lg transition-opacity duration-500">
+                Superior Craftsmanship
+              </div>
+            </div>
           </div>
         </SwiperSlide>
         <div className="absolute bottom-[40px] md:right-10 flex w-[100%] justify-between px-[20px] md:px-0 gap-4 z-10 md:w-[156px]">
