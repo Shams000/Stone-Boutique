@@ -8,9 +8,21 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Emberly: ["Emberly"],
+        MrEavesXLModOT: ["MrEavesXLModOT-Bold"],
+        MrEavesXLModOTReg: [" MrEavesXLModOT-Reg"],
+        AutoGraph: ["autograf-personal-use-only"],
+        MrEavesXLModNarOTBook: ["MrEavesXLModNarOT-Book"]
+
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
       },
     },
   },
