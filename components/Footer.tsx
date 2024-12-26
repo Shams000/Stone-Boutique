@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Footer = () => {
     return (
       <footer className="bg-[#302B25] w-full xl:ml-[60px]  text-white  ">
@@ -145,7 +145,7 @@ const Footer = () => {
           </div>
           </div>
           <div className="flex flex-col items-start justify-between">
-            <h6 className="inputhead">Designer's Name</h6>
+            <h6 className="inputhead">Designers Name</h6>
           <div className="oct-2ff2">
           <input
             type="text"

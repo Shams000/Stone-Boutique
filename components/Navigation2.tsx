@@ -90,7 +90,7 @@ export default function Navigation2() {
             </div>
             </div>
             <div className="flex items-start gap-[15px] absolute top-[320px] justify-between">
-              <h6 className="inputhead1 mt-[10px]">Designer's Name</h6>
+              <h6 className="inputhead1 mt-[10px]">Designers Name</h6>
               
             <div className="oct-2fd">
             <input
