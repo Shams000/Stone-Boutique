@@ -140,7 +140,7 @@ const HeroSection2 = () => {
         </div>
         <form className="p-5 flex flex-col gap-[15px]">
           <div className="flex items-center justify-between">
-            <h6>Name</h6>
+            <h6 className="inph6">Name</h6>
           <div className="oct-2f">
           <input
             type="text"
@@ -150,7 +150,7 @@ const HeroSection2 = () => {
           </div>
           </div>
           <div className="flex items-center justify-between">
-          <h6>Email</h6>
+          <h6 className="inph6">Email</h6>
           <div className="oct-2f">
             <input
             type="email"
@@ -170,7 +170,7 @@ const HeroSection2 = () => {
           </div>
           </div>
           <div>
-            <h6>Are you working with a designer?</h6>
+            <h6 className="inph6">Are you working with a designer?</h6>
           <div className="flex mt-[5px] w-[100%] gap-4">
             <div className="oct-btn2a">
             <button className="form-btn oct-btn3 bg-gray-200 text-[#AE6C3E]">

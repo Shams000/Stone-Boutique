@@ -115,7 +115,7 @@ export default function Navigation2() {
           
         {/* Menu Toggle Button */}
         
-        <button className="menu-toggle top-[80px] md:top-[95px] lg:top-[16px] right-[16px] tetradecagonl" onClick={toggleMenu}>
+        <button className="menu-toggle top-[80px] md:top-[95px] lg:top-[11px] right-[16px] tetradecagonl" onClick={toggleMenu}>
         {isMenuOpen ? "✖" : "☰"}
         </button>
 
