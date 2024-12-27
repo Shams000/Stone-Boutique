@@ -25,7 +25,7 @@ const PerfectionSection = () => {
             className="w-[196px] h-[233px] rounded-t-full overflow-hidden bg-cover bg-center relative"
             style={{ backgroundImage: "url('/Rectangle 19.png')" }}
           >
-            <button className="absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] bg-[#AE6C3E] text-white rounded-full p-4">
+            <button className="absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] bg-white text-[#AE6C3E] rounded-full w-[56px] h-[56px] p-4">
               ▶
             </button>
           </div>

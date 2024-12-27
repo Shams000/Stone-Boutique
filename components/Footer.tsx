@@ -133,12 +133,12 @@ const Footer = () => {
             <h6 className="inph6h mt-[10px] w-[150px] xl:w-[150px] content-center">Are you working with a designer?</h6>
           <div className="flex gap-4">
             <div className="oct-btn2af w-[53px] xl:w-[60px] h-[40px] right-[60px] xl:right-[80px]">
-            <button className="form-btn w-[51px] h-[38px] xl:w-[58px] oct-btn4f bg-gray-200 text-[#AE6C3E]">
+            <button className="form-btn w-[51px] h-[38px] xl:w-[58px] oct-btn4f hover:text-[#AE6C3E] hover:bg-[#E4C9AF]">
               Yes
             </button>
             </div>
             <div className="oct-btn2bf w-[53px] xl:w-[60px] h-[40px] right-0 xl:right-[10px]">
-            <button className="form-btn oct-btn4f w-[51px] h-[38px] xl:w-[58px] bg-gray-200 text-[#AE6C3E]">
+            <button className="form-btn oct-btn4f w-[51px] h-[38px] xl:w-[58px] hover:text-[#AE6C3E] hover:bg-[#E4C9AF]">
               No
             </button>
             </div>
@@ -154,7 +154,7 @@ const Footer = () => {
           />
           </div>
           </div>
-          <button className="form-btn oct-btnformfooter bg-[#AE6C3E] text-white">
+          <button className="form-btn oct-btnformfooter text-[#AE6C3E] bg-white">
             BOOK NOW
           </button>
           

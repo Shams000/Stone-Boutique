@@ -146,7 +146,7 @@ const HeroSection = () => {
       
       </div>
       </div>
-      <div className="absolute bottom-[280px] md:bottom-[280px] left-10 z-50">
+      <div className="absolute bottom-[280px] lg:bottom-[100px] left-10 z-50">
         <h1 className="hs text-white">
         Introducing <br />
         <span>a curated</span> selection of <br /> luxury tile

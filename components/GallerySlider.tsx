@@ -148,7 +148,7 @@ const GallerySlider = () => {
 
       {/* Explore Button */}
       <div className="text-center right-[80px] hidden md:inline-block bottom-[20px] absolute">
-        <button className="bg-[#AE6C3E] text-white oct-btnexplore hidden md:inline-block px-8 py-4 hover:bg-[#8e5733] transition">
+        <button className="bg-[#AE6C3E] text-white oct-btnexplore w-[287px] hidden md:inline-block hover:bg-[#8e5733] transition">
           Explore Gallery
         </button>
       </div>
