@@ -72,8 +72,8 @@ const PerfectionSection = () => {
       <div className="bgstone relative w-full max-w-[1440px] mt-[300px] pb-[48px] mb:pb-0">
       <div className="absolute top-[2%] right-[20%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
-              <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 rounded shadow-lg transition-opacity duration-500">
-                Premium Quality
+              <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
+              <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
             </div>
      

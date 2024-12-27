@@ -64,6 +64,26 @@ body {
   transform: scale(1.4); /* Scale for active bullet */
 }
 
+.hovertext{
+  color: rgba(174, 108, 62, 0.50);
+  font-family: 'MrEavesXLModOT-Bold';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hovertext span {
+  color: #AE6C3E;
+
+  font-family: 'MrEavesXLModOT-Bold';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
 h3 {
   font-family: 'Emberly';
   color: #AE6C3E;
@@ -569,6 +589,7 @@ h6{
   cursor: pointer;
  
 }
+
 .oct-2f {
   clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
   left: 1px;
