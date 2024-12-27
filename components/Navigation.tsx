@@ -6,7 +6,7 @@ export default function NavigationMenu() {
 
   return (
     
-    <nav className="fixed octagonheader -top-[20px] lg:-left-[20px] lg:pl-[20px] lg:h-[100vh] h-[90px] pt-[20px] w-full lg:w-[90px] bg-white flex items-center z-[100]">
+    <nav className="fixed octagonheader -top-[20px] lg:-left-[20px] lg:pl-[20px] lg:h-[102vh] h-[90px] pt-[20px] w-full lg:w-[90px] bg-white flex items-center z-[100]">
     <div className="flex w-full lg:flex-col lg:h-full lg:justify-between justify-between items-center px-6 py-4">
         {/* Logo Section */}
     <div className="text-2xl font-bold">
