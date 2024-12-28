@@ -26,7 +26,7 @@ export default function Navigation2() {
   return (
     <div className="top-right-nav flex gap-[20px]">
         
-        <button className="oct-btnnav right-[100px] md:top-[100px] xl:top-[16px] hidden md:inline-block fixed bg-[#AE6C3E] text-white px-6 py-3 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <button className="oct-btnnav right-[100px] md:top-[100px] xl:top-[16px] hidden md:inline-block fixed bg-[#AE6C3E] text-white hover:scale-105 transition-transform duration-300 ease-in-out">
           Schedule a Private Consultation
         </button>
         

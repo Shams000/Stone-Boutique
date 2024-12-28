@@ -196,7 +196,7 @@ h1 span {
 
 .form-input {
   padding: 0.75rem;
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   transition: border-color 0.3s ease;
   width: 211px;
   height: 38px;
@@ -212,7 +212,7 @@ h1 span {
 }
 .form-input2 {
   padding: 0.75rem;
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   transition: border-color 0.3s ease;
   width: 100%;
   height: 38px;
@@ -228,7 +228,7 @@ h1 span {
 
 .form-input3 {
   padding: 0.75rem;
-  clip-path: polygon(6% 0%, 94% 0%, 100% 20.5%, 100% 79.5%, 94% 100%, 6% 100%, 0% 79.5%, 0% 20.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   transition: border-color 0.3s ease;
   width: 100%;
   height: 38px;
@@ -262,7 +262,7 @@ h1 span {
 
 .form-inputf {
   padding: 0.75rem;
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   transition: border-color 0.3s ease;
   width: 100%;
   height: 38px;
@@ -337,7 +337,7 @@ line-height: normal;
 }
 
 .oct-btn {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #ae6c3e;
   color: white;
   height: 50px;
@@ -351,7 +351,7 @@ line-height: normal;
   cursor: pointer;
 }
 .oct-btnnav {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #ae6c3e;
   color: white;
   height: 50px;
@@ -360,6 +360,7 @@ line-height: normal;
   font-style: normal;
   position: fixed;
   top: 20px;
+  width: 343px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.9px;
@@ -367,7 +368,7 @@ line-height: normal;
   cursor: pointer;
 }
 .oct-btng {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #ae6c3e;
   color: white;
   height: 50px;
@@ -382,7 +383,7 @@ line-height: normal;
   cursor: pointer;
 }
 .oct-btnexplore {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: white;
   color: #ae6c3e;
   text-align: center;
@@ -402,7 +403,7 @@ line-height: normal;
   background: transparent;
 }
 .oct-btn2 {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: white;
   color: #ae6c3e;
   text-align: center;
@@ -417,7 +418,7 @@ line-height: normal;
   cursor: pointer;
 }
 .oct-btn2nd {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: white;
   color: #ae6c3e;
   text-align: center;
@@ -525,7 +526,7 @@ h6{
   position: relative;
 }
 .oct-btnform {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #ae6c3e;
   color: white;
   position: absolute;
@@ -535,7 +536,7 @@ h6{
   transition: background-color 0.3s ease;
 }
 .oct-btnform1 {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #ae6c3e;
   color: white;
   position: absolute;
@@ -545,7 +546,7 @@ h6{
   transition: background-color 0.3s ease;
 }
 .oct-btnformfooter {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #FFF;
   color: #AE6C3E;
   height: 50px; 
@@ -553,7 +554,7 @@ h6{
   transition: background-color 0.3s ease;
 }
 .oct-btn2b {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   right: 21px;
   width: 130px;
   height: 40px;
@@ -572,7 +573,7 @@ h6{
 
 
 .oct-btn2a {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   left: 21px;
   width: 130px;
   height: 40px;
@@ -591,7 +592,7 @@ h6{
 }
 
 .oct-2f {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+      clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   left: 1px;
   width: 213px;
   height: 40px;
@@ -600,7 +601,7 @@ h6{
   cursor: pointer;
 }
 .oct-2fd {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+      clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   left: 1px;
   width: 163px;
   height: 40px;
@@ -610,7 +611,7 @@ h6{
 }
 .form-input1 {
   padding: 0.75rem;
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+      clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   transition: border-color 0.3s ease;
   width: 161px;
   height: 38px;
@@ -625,7 +626,7 @@ h6{
   position: relative;
 }
 .oct-2ff {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+      clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   left: 1px;
   width: 100%;
   padding: 1px;
@@ -748,7 +749,7 @@ h6{
   display: inline-block;
 }
 .oct-2ff2 {
-  clip-path: polygon(6% 0%, 94% 0%, 100% 20.5%, 100% 79.5%, 94% 100%, 6% 100%, 0% 79.5%, 0% 20.5%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   left: 1px;
   width: 100%;
   padding: 1px;
