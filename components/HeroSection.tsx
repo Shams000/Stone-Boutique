@@ -161,6 +161,7 @@ const HeroSection = () => {
           Schedule a <span>Private Consultation</span>
         </h3>
         </div>
+        <p className="form2 text-center">A specialist will be in touch shortly.</p>
         
         <form className="p-5 flex flex-col gap-[15px]">
           <div className="flex items-center justify-between">
@@ -208,7 +209,7 @@ const HeroSection = () => {
             </div>
           </div>
           </div>
-          <div className="flex items-start gap-[15px] absolute top-[320px] justify-between">
+          <div className="flex items-start gap-[15px] absolute top-[330px] justify-between">
             <h6 className="inputhead1 mt-[10px]">Designers Name</h6>
             
           <div className="oct-2fd">

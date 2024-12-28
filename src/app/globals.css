@@ -540,7 +540,7 @@ h6{
   background: #ae6c3e;
   color: white;
   position: absolute;
-  top: 320px;
+  top: 330px;
   height: 50px; 
   width: 269px;
   transition: background-color 0.3s ease;
@@ -554,7 +554,7 @@ h6{
   transition: background-color 0.3s ease;
 }
 .oct-btn2b {
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
   right: 21px;
   width: 130px;
   height: 40px;
@@ -573,7 +573,7 @@ h6{
 
 
 .oct-btn2a {
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
   left: 21px;
   width: 130px;
   height: 40px;
@@ -590,7 +590,15 @@ h6{
   cursor: pointer;
  
 }
-
+.form2{
+  color: #AE6C3E;
+  text-align: center;
+  font-family: 'MrEavesXLModOT-Bold';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+}
 .oct-2f {
       clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   left: 1px;

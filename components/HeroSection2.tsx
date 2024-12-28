@@ -138,6 +138,7 @@ const HeroSection2 = () => {
           Schedule <span>Private Consultation</span>
         </h3>
         </div>
+        <p className="form2 text-center">A specialist will be in touch shortly.</p>
         <form className="p-5 flex flex-col gap-[15px]">
           <div className="flex items-center justify-between">
             <h6 className="inph6">Name</h6>
@@ -187,7 +188,7 @@ const HeroSection2 = () => {
           <button className="form-btn absolute oct-btnform1 bg-[#AE6C3E] text-white">
             BOOK NOW
           </button>
-          <div className="absolute text-center flex flex-col justify-center top-[385px]">
+          <div className="absolute text-center flex flex-col justify-center top-[395px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
             <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><div className="flex gap-[8px]"><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
           </div>
