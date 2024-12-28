@@ -3,7 +3,7 @@ const Footer = () => {
     return (
       <footer className="bg-[#302B25] w-full xl:ml-[40px]  text-white  ">
         {/* Partners Section */}
-        <div className="w-full px-[20px] bg-[#4D473F] pt-12">
+        <div className="w-full px-[20px] xl:px-0 xl:pl-[100px] bg-[#4D473F] pt-12">
         <div className=" max-w-[1440px] bg-[#4D473F] mx-auto">
           <div className="flex flex-col max-w-[1440px] justify-between md:justify-between items-start gap-[40px]">
             <div className="gap-[45px] w-[100%] justify-start flex flex-col items-center md: xl:flex-row"> 
@@ -40,7 +40,7 @@ const Footer = () => {
                     <img src="/logos/Group 102.svg" alt="Google Rating" className="h-6 w-[140px]" />
                         <div className="flex gap-1">
                             <p className="ratings1 opacity-[70%]">5 Star</p>
-                            <p className="ratings pt-[0.5px]">-  41 Reviews</p>
+                            <p className="ratings pt-[0.5px]">—  41 Reviews</p>
                         </div>
                 </div>
               </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                     <img src="/logos/Group 102.svg" alt="Google Rating" className="h-6 w-[140px]" />
                         <div className="flex gap-1">
                             <p className="ratings1 opacity-[70%]">5 Star</p>
-                            <p className="ratings pt-[0.5px]">-  41 Reviews</p>
+                            <p className="ratings pt-[0.5px]">—  41 Reviews</p>
                         </div>
                 </div>
               </div>
@@ -64,10 +64,10 @@ const Footer = () => {
         </div>
   
         {/* Main Footer Section */}
-        <div className="max-w-[1440px] w-full min-h-[730px] h-auto justify-center mx-auto flex flex-col md:flex-row ">
+        <div className="max-w-[1440px] w-full min-h-[730px] h-auto justify-center xl:pl-[100px] xl:justify-end mx-auto flex flex-col md:flex-row ">
           {/* Founders Section */}
-          <div className=" flex flex-col xl:flex-row w-full md:w-[62%] xl:w-[927px]">
-          <div className=" left-0 gap-[14px] px-[20px] mt-[55px] flex flex-col ">
+          <div className=" flex flex-col xl:flex-row w-full md:w-[62%] xl:w-[917px]">
+          <div className=" left-0 gap-[14px] px-[20px] xl:px-0 xl:pl-[40px] mt-[55px] flex flex-col ">
             <h3 className="fhd text-[60px] text-left">Francisco & <br /> Margarita Acosta</h3>
             <h5 className="fhd2 text-[40px]">Founders</h5>
             <p className="text-sm desc w-[240px] text-left mb-6">
@@ -80,9 +80,9 @@ const Footer = () => {
             
           </div>
           
-          <div className="flex justify-end w-full xl:w-[70%]">
-          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[263px] xl:w-[698px] xl:h-[730px]">
-          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[263px] xl:w-[698px] xl:h-[730px]" alt="" />
+          <div className="flex justify-end xl:pt-[20px] w-full xl:ml-[-20px] xl:w-[70%]">
+          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[263px] xl:w-[698px] xl:h-[710px]">
+          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[263px] xl:w-[698px] xl:h-[710px]" alt="" />
           </div>
           </div>
           
@@ -98,7 +98,7 @@ const Footer = () => {
             <form className="w-full xl:w-[332px] flex flex-col gap-[10px]">
           <div className="flex flex-col items-start justify-between">
             <h6 className="inputhead">Name</h6>
-          <div className="oct-2ff">
+          <div className="oct-2ffinput">
           <input
             type="text"
             placeholder="Name"
@@ -131,13 +131,13 @@ const Footer = () => {
           
           <div className=" content-center h-[40px] w-[100%] flex relative">
             <h6 className="inph6h mt-[10px] w-[150px] xl:w-[150px] content-center">Are you working with a designer?</h6>
-          <div className="flex gap-4">
-            <div className="oct-btn2af w-[53px] xl:w-[60px] h-[40px] right-[60px] xl:right-[80px]">
+          <div className="flex">
+            <div className="oct-btn2af w-[53px] xl:w-[60px] h-[40px] right-[60px] xl:right-[68px]">
             <button className="form-btn w-[51px] h-[38px] xl:w-[58px] oct-btn4f hover:text-[#AE6C3E] hover:bg-[#E4C9AF]">
               Yes
             </button>
             </div>
-            <div className="oct-btn2bf w-[53px] xl:w-[60px] h-[40px] right-0 xl:right-[10px]">
+            <div className="oct-btn2bf w-[53px] xl:w-[60px] h-[40px] right-0 xl:right-[0px]">
             <button className="form-btn oct-btn4f w-[51px] h-[38px] xl:w-[58px] hover:text-[#AE6C3E] hover:bg-[#E4C9AF]">
               No
             </button>

@@ -154,7 +154,7 @@ const HeroSection = () => {
       </div>
 
       {/* form Content */}
-      <div className="absolute hidden md:inline-block octagon1 top-[160px] xl:top-[100px] right-10 z-50  shadow-lg w-80">
+      <div className="absolute hidden md:inline-block octagon1 top-[160px] xl:top-[100px] right-10 z-50 w-80">
         <div className="relative bg-white top-[1px] left-[1px] w-[308px] h-[498px]">
         <div className="pt-[21px]">
         <h3>

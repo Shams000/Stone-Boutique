@@ -131,7 +131,7 @@ const HeroSection2 = () => {
     
 
       {/* Fixed Form */}
-      <div className="absolute octagon top-10 left-10 md:left-[115px] md:top-[60px] z-50  shadow-lg w-80">
+      <div className="absolute octagon top-10 left-10 md:left-[115px] md:top-[60px] z-50 w-80">
         <div className="relative bg-white top-[1px] left-[1px] w-[308px] h-[443px]">
         <div className="pt-[21px]">
         <h3>

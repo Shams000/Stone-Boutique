@@ -13,8 +13,8 @@ const PerfectionSection = () => {
           ></div>
           <div className="relative mt-[-50px]">
           <h4 className="nmbr text-left ">01</h4>
-          <p className="text-lg font-medium cardshead">Discover Through <em>Technology</em></p>
-          <p className="stepdesc mt-2">
+          <p className="text-lg font-medium text-left cardshead">Discover Through <em>Technology</em></p>
+          <p className="stepdesc text-left mt-2">
             Our patented tools simplify stone selection and purchase.
           </p>
           </div>
@@ -31,8 +31,8 @@ const PerfectionSection = () => {
           </div>
           <div className="relative z-10 mt-[-50px]">
           <h4 className="nmbr text-left">02</h4>
-          <p className="text-lg font-medium cardshead">Render Your <em>Vision</em></p>
-          <p className="stepdesc mt-2">
+          <p className="text-lg text-left font-medium cardshead">Render Your <em>Vision</em></p>
+          <p className="stepdesc text-left mt-2">
             We render your stone selections into photo-realistic renderings.
           </p>
           </div>
@@ -45,8 +45,8 @@ const PerfectionSection = () => {
           ></div>
           <div className="mt-[-50px] relative">
           <h4 className="nmbr text-left">03</h4>
-          <p className="text-lg font-medium cardshead">Purchase <em>Directly</em></p>
-          <p className="stepdesc mt-2">
+          <p className="text-lg text-left font-medium cardshead">Purchase <em>Directly</em></p>
+          <p className="stepdesc text-left mt-2">
             We purchase your stone blocks directly from quarries without
             intermediaries.
           </p>
@@ -60,8 +60,8 @@ const PerfectionSection = () => {
           ></div>
           <div className="mt-[-50px] relative">
           <h4 className="nmbr text-left ">04</h4>
-          <p className="text-lg font-medium cardshead">Install <em>Precisely</em></p>
-          <p className="stepdesc mt-2">
+          <p className="text-lg text-left font-medium cardshead">Install <em>Precisely</em></p>
+          <p className="stepdesc text-left mt-2">
             We combine the best-engineered design specifications precisely.
           </p>
           </div>
@@ -83,7 +83,7 @@ const PerfectionSection = () => {
         <div className="text-center">
           <h2 className="perfection">A Passion for <br /> <span className="perfection2 text-[100px] xl:text-[180px]">Perfection</span></h2>
           <p className="text-xl pr1 italic text-[#AE6C3E] mt-4">
-            In our industry, <br /> <span className="pr2">with our products, for our clients</span>
+          — In our industry, <br /> <span className="pr2">with our products, for our clients</span>
           </p>
         </div>
 
