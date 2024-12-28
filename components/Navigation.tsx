@@ -6,13 +6,13 @@ export default function NavigationMenu() {
 
   return (
     
-    <nav className="fixed octagonheader -top-[20px] lg:-left-[20px] lg:pl-[20px] lg:h-[102vh] h-[90px] pt-[20px] w-full lg:w-[90px] bg-white flex items-center z-[100]">
-    <div className="flex w-full lg:flex-col lg:h-full lg:justify-between justify-between items-center px-6 py-4">
+    <nav className="fixed octagonheader -top-[20px] xl:-left-[20px] xl:pl-[20px] xl:h-[102vh] h-[90px] pt-[20px] w-full xl:w-[90px] bg-white flex items-center z-[100]">
+    <div className="flex w-full xl:flex-col xl:h-full xl:justify-between justify-between items-center px-6 py-4">
         {/* Logo Section */}
     <div className="text-2xl font-bold">
       {/* Show different logo orientation for large and small screens */}
-        <img src="/logos/Vector (1).png" className="inline-block lg:hidden" alt="Logo" />
-        <img src="/logos/Vector (1).svg" className="lg:inline-block hidden" alt="Rotated Logo" />
+        <img src="/logos/Vector (1).png" className="inline-block xl:hidden" alt="Logo" />
+        <img src="/logos/Vector (1).svg" className="xl:inline-block hidden" alt="Rotated Logo" />
     </div>
 
     

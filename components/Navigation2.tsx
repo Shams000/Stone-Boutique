@@ -26,7 +26,7 @@ export default function Navigation2() {
   return (
     <div className="top-right-nav flex gap-[20px]">
         
-        <button className="oct-btnnav right-[100px] md:top-[100px] lg:top-[16px] hidden md:inline-block fixed bg-[#AE6C3E] text-white px-6 py-3 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <button className="oct-btnnav right-[100px] md:top-[100px] xl:top-[16px] hidden md:inline-block fixed bg-[#AE6C3E] text-white px-6 py-3 hover:scale-105 transition-transform duration-300 ease-in-out">
           Schedule a Private Consultation
         </button>
         
@@ -115,7 +115,7 @@ export default function Navigation2() {
           
         {/* Menu Toggle Button */}
         
-        <button className="menu-toggle top-[80px] md:top-[95px] lg:top-[11px] right-[16px] tetradecagonl" onClick={toggleMenu}>
+        <button className="menu-toggle top-[80px] md:top-[95px] xl:top-[11px] right-[16px] tetradecagonl" onClick={toggleMenu}>
         {isMenuOpen ? "✖" : "☰"}
         </button>
 
