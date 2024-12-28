@@ -197,7 +197,7 @@ const HeroSection2 = () => {
       
       </div>
       <div className="mx-auto h-[auto] pt-[50px] flex justify-center">
-          <div className="flex flex-col w-full justify-between md:justify-between items-center gap-4 mb-12">
+          <div className="flex flex-col w-full justify-between md:justify-between items-center gap-4 px-[40px] xl:px-0 mb-12">
             <div className="gap-[45px] flex flex-col xl:flex-row"> 
                 <h6 className="headerpartner1">The <em>pinnacle</em> of the stone industry</h6>
             <div className="flex flex-col md:flex-row gap-[20px] justify-start">

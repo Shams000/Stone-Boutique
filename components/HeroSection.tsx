@@ -11,7 +11,7 @@ const HeroSection = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
-    <section className="w-full lg:ml-[40px] relative">
+    <section className="w-full xl:ml-[40px] relative">
       {/* Swiper Component */}
       <Swiper
         spaceBetween={0}
@@ -146,7 +146,7 @@ const HeroSection = () => {
       
       </div>
       </div>
-      <div className="absolute bottom-[280px] lg:bottom-[100px] left-10 z-50">
+      <div className="absolute bottom-[280px] xl:bottom-[100px] left-10 z-50">
         <h1 className="hs text-white">
         Introducing <br />
         <span>a curated</span> selection of <br /> luxury tile

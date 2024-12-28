@@ -11,7 +11,7 @@ import NavigationMenu2 from "../../components/Navigation2";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative xl:w-full">
       <NavigationMenu />
       <NavigationMenu2 />
       <HeroSection />
