@@ -10,9 +10,9 @@ export default function NavigationMenu() {
     <div className="absolute bottom-[2px] xl:right-[2px] xl:h-[100vh] h-[68px] w-full bg-white xl:w-[68px] octagonheader00">
       <div className="flex w-full xl:flex-col xl:h-full xl:justify-between justify-between items-center px-6 py-4">
         {/* Logo Section */}
-    <div className="text-2xl xl:-rotate-90 h-[30px] w-[538] font-bold">
+    <div className="text-2xl xl:-rotate-90 h-[30px] w-[488px] font-bold">
       {/* Show different logo orientation for large and small screens */}
-      <h5 className="h-[30px] w-[368px] navlog tracking-widest">STONE BOUTIQUE</h5>
+      <h5 className="h-[30px] w-[488px] navlog tracking-widest">STONE BOUTIQUE</h5>
         {/* <img src="/logos/Vector (1).png" className="inline-block xl:hidden" alt="Logo" />
         <img src="/logos/Vector (1).svg" className="xl:inline-block hidden" alt="Rotated Logo" /> */}
     </div>

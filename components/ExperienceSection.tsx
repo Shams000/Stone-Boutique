@@ -27,8 +27,8 @@ const ExperienceSection = () => {
      
 
       {/* Full-width Slider */}
-      <div className="relative gap-[200px] h-full flex items-center min-h-[960px] xl:pl-[120px] w-full ml-auto">
-      <div className="absolute gallery1 pl-[45px] pt-[60px] lg:pt-[60px] min-h-[720px] w-[372px] flex flex-col items-start z-50  md:left-[170px] text-left">
+      <div className="relative gap-[200px] h-full flex items-center min-h-[960px] md:ml-[-20px] xl:m-0 xl:pl-[120px] w-full ml-auto">
+      <div className="absolute gallery1 pl-[45px] pt-[60px] lg:pt-[60px] min-h-[720px] w-[372px] flex flex-col items-start z-50 md:left-[10px] xl:left-[170px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>

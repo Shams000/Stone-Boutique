@@ -24,7 +24,7 @@ const GallerySlider = () => {
   };
 
   return (
-    <section className="gallery w-full xl:w-[100%] 2xl:h-[100vh] min-h-[1160px] relative justify-center items-center pt-[40] pb-[40px] 2xl:pt-[80px] 2xl:pb-[80px] ">
+    <section className="gallery w-full xl:w-[100%] 2xl:h-[100vh] min-h-[1100px] relative justify-center items-center pt-[40] pb-[40px] 2xl:pt-[80px] 2xl:pb-[80px] ">
       {/* Vertical Text and Navigation */}
       <div className="relative 2xl:h-full min-h-[960px] bottom-0 ">
       <div className="absolute left-0 min-h-[760px] md:left-[230px] top-1/2 bottom-1/2 gap-56 transform -translate-y-1/2 flex flex-col md:justify-between h-[657px] md:h-full gallery w-[140px] pt-[150px] items-center z-10">
@@ -68,19 +68,19 @@ const GallerySlider = () => {
             alt="Gallery Item 1"
             width={400}
             height={600}
-            className="w-full md:h-auto xl:h-full xl:w-auto md:w-[700px] h-[600px] md:object-cover"
+            className="w-full md:h-full xl:h-full xl:w-auto md:w-[700px] h-[600px] md:object-cover"
           />
         </div>
 
         {/* Middle Large Image */}
         <div className="relative left-[-210px] md:left-[-350px] flex gap-4">
-        <div className=" flex-shrink-0 md:w-[320px] xl:w-auto h-[580px] xl:h-auto md:h-[857px] overflow-hidden relative">
+        <div className=" flex-shrink-0 md:w-auto xl:w-auto h-[580px] xl:h-auto md:h-auto overflow-hidden relative">
           <Image
             src="/rectangle 12 (1).png"
             alt="Gallery Item 2"
             width={216}
             height={597}
-            className="md:h-[857px] xl:h-full xl:w-auto  md:w-[320px]"
+            className="md:h-full xl:h-full xl:w-auto  md:w-auto"
           />
           <div className="absolute top-[50%] left-[50%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
@@ -91,15 +91,15 @@ const GallerySlider = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex-shrink-0 xl:h-full xl:w-auto w-[230px] md:w-[320px] content-between gap-[27px] flex flex-col space-y-4">
+        <div className="flex-shrink-0 xl:h-full xl:w-auto w-[230px] md:w-auto content-between gap-[27px] flex flex-col space-y-4">
           {/* Top Image */}
-          <div className="overflow-hidden xl:h-[50%] xl:w-auto relative">
+          <div className="overflow-hidden md:h-[50%] md:w-auto relative">
             <Image
               src="/rectangle 14.png"
               alt="Gallery Item 3"
               width={230}
               height={273}
-              className="w-full md:w-[340px] xl:h-full xl:w-auto  md:h-[408px] md:object-cover"
+              className="w-full md:w-auto] xl:h-full xl:w-auto  md:h-full md:object-cover"
             />
             <div className="absolute top-[50%] left-[50%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
@@ -110,13 +110,13 @@ const GallerySlider = () => {
           </div>
 
           {/* Bottom Image */}
-          <div className="overflow-hidden xl:h-[50%] xl:w-auto relative">
+          <div className="overflow-hidden md:h-[50%] xl:w-auto relative">
             <Image
               src="/rectangle 13.png"
               alt="Gallery Item 4"
               width={230}
               height={273}
-              className="w-full md:w-[340px] xl:h-full xl:w-auto md:h-[408px] object-cover"
+              className="w-full md:w-auto xl:h-full xl:w-auto md:h-full object-cover"
             />
             <div className="absolute top-[50%] left-[50%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
@@ -128,13 +128,13 @@ const GallerySlider = () => {
         </div>
 
         {/* Duplicate of Left Image (Optional) */}
-        <div className="flex-shrink-0 md:w-[700px] xl:h-full xl:w-auto overflow-hidden relative">
+        <div className="flex-shrink-0 md:w-auto xl:h-full xl:w-auto overflow-hidden relative">
           <Image
             src="/Rectangle 15.png"
             alt="Gallery Item 1"
             width={400}
             height={600}
-            className="w-full md:h-auto md:w-[700px] xl:h-full xl:w-auto h-[600px] md:object-cover"
+            className="w-full md:h-full md:w-auto xl:h-full xl:w-auto h-[600px] md:object-cover"
           />
           <div className="absolute top-[50%] left-[50%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
@@ -143,13 +143,13 @@ const GallerySlider = () => {
               </div>
             </div>
         </div>
-        <div className="flex-shrink-0 md:w-[700px] xl:h-full xl:w-auto overflow-hidden relative">
+        <div className="flex-shrink-0 md:w-auto xl:h-full xl:w-auto overflow-hidden relative">
           <Image
             src="/Rectangle 15.png"
             alt="Gallery Item 1"
             width={400}
             height={600}
-            className="w-full md:h-auto md:w-[700px] xl:h-full xl:w-auto h-[600px] md:object-cover"
+            className="w-full md:h-full md:w-auto xl:h-full xl:w-auto h-[600px] md:object-cover"
           />
           <div className="absolute top-[50%] left-[50%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
