@@ -11,7 +11,7 @@ const HeroSection2 = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
-    <section className="w-full xl:ml-[40px] relative">
+    <section className="w-full min-h-[869px] flex flex-col xl:w-[100%] relative">
       {/* Swiper Component */}
       <div>
       <Swiper
@@ -190,7 +190,7 @@ const HeroSection2 = () => {
           </button>
           <div className="absolute text-center flex flex-col justify-center top-[395px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
-            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><div className="flex gap-[8px]"><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
+            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /><div className="flex gap-[8px]"><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
           </div>
         </form>
         </div>
@@ -198,10 +198,10 @@ const HeroSection2 = () => {
       
       </div>
       <div className="mx-auto h-[auto] pt-[50px] flex justify-center">
-          <div className="flex flex-col w-full justify-between md:justify-between items-center gap-4 px-[40px] xl:px-0 mb-12">
+          <div className="flex flex-col w-full justify-between md:justify-between items-start gap-4 px-[40px] xl:px-0 mb-12">
             <div className="gap-[45px] flex flex-col xl:flex-row"> 
                 <h6 className="headerpartner1">The <em>pinnacle</em> of the stone industry</h6>
-            <div className="flex flex-col md:flex-row gap-[20px] justify-start">
+            <div className="flex flex-col md:flex-row gap-[20px] items-center justify-start">
             <p className="para max-w-[400px]">After 30 successful years in the natural stone industry we saw a glaring need for change. Why, in an industry focused on beauty, design and luxury, was the buying process so grueling? Hot, dusty warehouses, an inability to view extensive slab options efficiently, confusing price structures, and unreliable processes went against everything we wanted to offer you.</p>
             <img src="/Vector 17.svg" className=" hidden md:inline-block" alt="" />
             

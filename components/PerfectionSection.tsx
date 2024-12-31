@@ -2,7 +2,7 @@
 
 const PerfectionSection = () => {
   return (
-    <section className="bg-[#f8f5f0] w-full xl:ml-[40px] flex flex-col items-center pt-[63px]">
+    <section className="bg-[#f8f5f0] relative min-h-[1150px] justify-between xl:h-[100vh] xl:w-[100%] w-full flex flex-col items-center pt-[63px]">
       {/* Steps Section */}
       <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-[50px] xl:w-[941px] xl:grid-cols-4 md:gap-8">
         {/* Step 1 */}
@@ -78,7 +78,7 @@ const PerfectionSection = () => {
             </div>
      
 
-        <div className="mt-[-120px] mb:mt-[-120px] xl:mt-[-190px]">
+        <div className="mt-[-210px] mb:mt-[-120px] xl:mt-[-190px]">
           {/* Title Section */}
         <div className="text-center">
           <h2 className="perfection">A Passion for <br /> <span className="perfection2 text-[100px] xl:text-[180px]">Perfection</span></h2>

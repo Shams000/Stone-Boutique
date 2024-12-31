@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-      <footer className="bg-[#302B25] w-full xl:ml-[40px]  text-white  ">
+      <footer className="bg-[#302B25] xl:w-[100%] relative w-full  text-white  ">
         {/* Partners Section */}
         <div className="w-full px-[20px] xl:px-0 xl:pl-[100px] bg-[#4D473F] pt-12">
         <div className=" max-w-[1440px] bg-[#4D473F] mx-auto">
@@ -130,8 +130,7 @@ const Footer = () => {
          </div>
           
           <div className=" content-center h-[40px] w-[100%] flex relative">
-            <h6 className="inph6h mt-[10px] w-[150px] xl:w-[150px] content-center">Are you working with a designer?</h6>
-          <div className="flex">
+            <h6 className="inph6h mt-[10px] w-[150px] xl:w-[210px] content-center">Are you working with a designer?</h6>
             <div className="oct-btn2af w-[53px] xl:w-[60px] h-[40px] right-[60px] xl:right-[68px]">
             <button className="form-btn w-[51px] h-[38px] xl:w-[58px] oct-btn4f hover:text-[#AE6C3E] hover:bg-[#E4C9AF]">
               Yes
@@ -142,7 +141,6 @@ const Footer = () => {
               No
             </button>
             </div>
-          </div>
           </div>
           <div className="flex flex-col items-start justify-between">
             <h6 className="inputhead">Designers Name</h6>
@@ -163,7 +161,7 @@ const Footer = () => {
         </form>
         <div className=" flex flex-col items-center justify-center mb-[30px] mt-[20px] top-[500px]">
             <h6 className="footaddress">1532 Slocum St <br /> Dallas, Texas 75207</h6>
-            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (5).svg" alt="" /><h6 className="footaddress">info@stone.boutique,</h6></div> <div className="flex gap-[8px]"><img src="/logos/icon/vector (4).svg" alt="" /><h6 className="footaddress">(972) 635-4000</h6></div></div>
+            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (5).svg" alt="" /><h6 className="footaddress">info@stone.boutique,</h6></div><hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /> <div className="flex gap-[8px]"><img src="/logos/icon/vector (4).svg" alt="" /><h6 className="footaddress">(972) 635-4000</h6></div></div>
           </div>
           <div className="w-full flex justify-center">
             <img src="/Vector (2).svg" alt="" /></div>

@@ -11,7 +11,7 @@ const HeroSection = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
-    <section className="w-full xl:ml-[40px] relative">
+    <section className="w-full  xl:w-[100%] h-[100vh] relative">
       {/* Swiper Component */}
       <Swiper
         spaceBetween={0}
@@ -100,17 +100,17 @@ const HeroSection = () => {
 
       {/* Navigation Buttons */}
       <div className="flex-col w-full bottom-10 absolute gap-[32px]">
-      <h2 className="text-5xl hs w-[332px] font-bold mb-4 text-gray-800">
+      {/* <h2 className="text-5xl hs w-[332px] font-bold mb-4 text-gray-800">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
        
        <h1 className=" hs text-white relative">
           Introducing <br />
           <span>a curated</span> selection of <br /> luxury tile
-        </h1>
+        </h1> */}
        
       
-      <div className=" w-full gap-[35px] pl-[40px] pr-[40px] flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
+      <div className=" w-full gap-[35px] px-[40px] xl:px-20 flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
       <div className=" flex-col flex xl:flex-row gap-4 z-50">
         <button className="oct-btn bg-[#AE6C3E] text-white px-6 py-3 hover:scale-105 transition-transform duration-300 ease-in-out">
           Schedule a Private Consultation
@@ -146,7 +146,7 @@ const HeroSection = () => {
       
       </div>
       </div>
-      <div className="absolute bottom-[280px] xl:bottom-[100px] left-10 z-50">
+      <div className="absolute bottom-[280px] xl:bottom-[100px] left-10 xl:left-20 z-50">
         <h1 className="hs text-white">
         Introducing <br />
         <span>a curated</span> selection of <br /> luxury tile
@@ -226,7 +226,7 @@ const HeroSection = () => {
           </button>
           <div className="absolute flex flex-col text-center justify-center top-[445px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
-            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><div className="flex gap-[8px]"><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
+            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><div className="flex gap-[8px]"> <hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
           </div>
         </form>
         </div>

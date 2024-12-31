@@ -6,39 +6,27 @@ export default function NavigationMenu() {
 
   return (
     
-    <nav className="fixed octagonheader -top-[20px] xl:-left-[20px] xl:pl-[20px] xl:h-[102vh] h-[90px] pt-[20px] w-full xl:w-[90px] bg-white flex items-center z-[100]">
-    <div className="flex w-full xl:flex-col xl:h-full xl:justify-between justify-between items-center px-6 py-4">
+    <nav className="fixed octagonheader  xl:h-[100vh] h-[70px] w-full xl:w-[70px] bg-gradient-to-r from-white to-[#AE6C3E] xl:bg-gradient-to-t xl:from-white xl:to-[#AE6C3E] flex items-center z-[100]">
+    <div className="absolute bottom-[2px] xl:right-[2px] xl:h-[100vh] h-[68px] w-full bg-white xl:w-[68px] octagonheader00">
+      <div className="flex w-full xl:flex-col xl:h-full xl:justify-between justify-between items-center px-6 py-4">
         {/* Logo Section */}
-    <div className="text-2xl font-bold">
+    <div className="text-2xl xl:-rotate-90 h-[30px] w-[538] font-bold">
       {/* Show different logo orientation for large and small screens */}
-        <img src="/logos/Vector (1).png" className="inline-block xl:hidden" alt="Logo" />
-        <img src="/logos/Vector (1).svg" className="xl:inline-block hidden" alt="Rotated Logo" />
+      <h5 className="h-[30px] w-[368px] navlog tracking-widest">STONE BOUTIQUE</h5>
+        {/* <img src="/logos/Vector (1).png" className="inline-block xl:hidden" alt="Logo" />
+        <img src="/logos/Vector (1).svg" className="xl:inline-block hidden" alt="Rotated Logo" /> */}
     </div>
 
     
 
     {/* Social Icons Section */}
-    <div className="flex gap-4 lg:mt-auto">
+    <div className="flex gap-4 ">
       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
         <img src="/logos/instagram alt 1.svg" alt="Instagram" className="w-6 h-6" />
       </a>
     </div>
-    </div>
+    </div></div>
   </nav>
-    // <nav className=" sticky  top-0 left-0 h-16 justify-end octagon xl:w-16 bg-white flex lg:flex-col flex-row items-center z-[100]">
-    //   {/* Logo */}
-     
-    // <div className="absolute  flex  xl:flex-col lg:w-[100%]">
-    // <div className=" lg:mb-[200px] h-[328px] p-4  xl:h-full">
-    //     <img src="/logos/Vector (1).png" className="lg:rotate-90 w-[362px] " alt="" />
-    //   </div>
-
-    //   <div className=" lg:left-0 m-4 ">
-    //     <img src="/logos/instagram alt 1.svg" alt="" />
-    //   </div>
-    // </div>
-    
-    // </nav>
   
   );
 }

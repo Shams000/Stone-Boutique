@@ -25,6 +25,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  overflow-x: hidden;
   font-family: 'MrEavesXLModOT-Bold','MrEavesXLModOT-Reg', 'Emberly', 'MrEavesXLModNarOTBook', 'AutoGraph';
 }
 @font-face {
@@ -82,7 +83,10 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-
+.navlog{
+  letter-spacing: 5px;
+  font-weight: 700;
+}
 
 h3 {
   font-family: 'Emberly';
@@ -184,8 +188,14 @@ h1 span {
   width: 310px;
   filter: drop-shadow(0px 20px 40px rgba(48, 43, 37, 0.20));
 }
+
 .octagonheader {
-  clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
+  clip-path: polygon(0% 0%, 95% 0%, 100% 0%, 100% 78%, 98% 100%, 2% 100%, 0% 68%, 0% 50%);
+  box-shadow: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.07));
+  
+}
+.octagonheader00 {
+  clip-path: polygon(0% 0%, 95% 0%, 100% 0%, 100% 78%, 98% 100%, 2% 100%, 0% 68%, 0% 50%);
   box-shadow: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.07));
   
 }
@@ -402,7 +412,7 @@ line-height: normal;
   background: linear-gradient(180deg, #EBE9E6 0%, #CAC5BC 100%);
 }
 .gallery1{
-  background: transparent;
+  background: linear-gradient(180deg, #EBE9E6 0%, #CAC5BC 100%);
 }
 .oct-btn2 {
   clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
@@ -516,7 +526,7 @@ h6{
   position: relative;
 }
 .oct-btn4f {
-  clip-path: polygon(15% 0%, 85% 0%, 100% 35%, 100% 65%, 85% 100%, 15% 100%, 0% 65%, 0% 35%);
+  clip-path: polygon(13% 0%, 87% 0%, 100% 33%, 100% 67%, 87% 100%, 13% 100%, 0% 67%, 0% 33%);
   background:  #676057;
   color: #FFF;
   text-align: center;
@@ -585,7 +595,7 @@ h6{
  
 }
 .oct-btn2af {
-  clip-path: polygon(15% 0%, 85% 0%, 100% 35%, 100% 65%, 85% 100%, 15% 100%, 0% 65%, 0% 35%);
+  clip-path: polygon(13% 0%, 87% 0%, 100% 33%, 100% 67%, 87% 100%, 13% 100%, 0% 67%, 0% 33%);
   
   background: #E4C9AF;
   position: absolute;
@@ -954,7 +964,7 @@ h6{
 }
 
 /* Responsive Behavior */
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 767px) {
   .menu {
     width: 94%;
     padding-right: 20px; /* Adjust for smaller screens */
@@ -962,7 +972,8 @@ h6{
     right: 3%;
     left: 3%;
   }
-  .gallery{
+  
+  .gallery1{
     background: transparent;
   }
 
@@ -977,6 +988,12 @@ h6{
     background: #E4C9AF;
     position: relative;
     cursor: pointer;
+}
+
+.octagonheader {
+  clip-path: polygon(0% 0%, 85% 0%, 100% 2%, 100% 98%, 85% 100%, 0% 100%, 0% 75%, 0% 22%);
+  box-shadow: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.07));
+  
 }
 }
 
