@@ -132,8 +132,8 @@ const HeroSection2 = () => {
 
       {/* Fixed Form */}
       <div className="absolute octagon top-10 left-10 md:left-[115px] md:top-[60px] z-50 w-80">
-        <div className="relative bg-white top-[1px] left-[1px] w-[308px] h-[443px]">
-        <div className="pt-[21px]">
+        <div className="relative octagon1w bg-white top-[1px] left-[1px] w-[308px] h-[453px]">
+        <div className="pt-[21px] pb-[5px]">
         <h3>
           Schedule <span>Private Consultation</span>
         </h3>
@@ -188,7 +188,7 @@ const HeroSection2 = () => {
           <button className="form-btn absolute oct-btnform1 bg-[#AE6C3E] text-white">
             BOOK NOW
           </button>
-          <div className="absolute text-center flex flex-col justify-center top-[395px]">
+          <div className="absolute text-center flex flex-col justify-center top-[405px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
             <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /><div className="flex gap-[8px]"><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
           </div>
@@ -197,11 +197,11 @@ const HeroSection2 = () => {
       </div>
       
       </div>
-      <div className="mx-auto h-[auto] pt-[50px] flex justify-center">
-          <div className="flex flex-col w-full justify-between md:justify-between items-start gap-4 px-[40px] xl:px-0 mb-12">
-            <div className="gap-[45px] flex flex-col xl:flex-row"> 
+      <div className="mx-auto h-[auto] py-[50px] flex items-center justify-center">
+          <div className="flex flex-col w-full justify-between md:justify-between items-start gap-4 px-[40px] xl:px-0 ">
+            <div className="gap-[45px] items-center flex flex-col xl:flex-row"> 
                 <h6 className="headerpartner1">The <em>pinnacle</em> of the stone industry</h6>
-            <div className="flex flex-col md:flex-row gap-[20px] items-center justify-start">
+            <div className="flex flex-col md:flex-row gap-[20px] justify-start">
             <p className="para max-w-[400px]">After 30 successful years in the natural stone industry we saw a glaring need for change. Why, in an industry focused on beauty, design and luxury, was the buying process so grueling? Hot, dusty warehouses, an inability to view extensive slab options efficiently, confusing price structures, and unreliable processes went against everything we wanted to offer you.</p>
             <img src="/Vector 17.svg" className=" hidden md:inline-block" alt="" />
             

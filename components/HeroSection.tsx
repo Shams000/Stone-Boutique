@@ -99,7 +99,7 @@ const HeroSection = () => {
       
 
       {/* Navigation Buttons */}
-      <div className="flex-col w-full bottom-10 absolute gap-[32px]">
+      <div className="flex-col w-full bottom-[30px] absolute gap-[32px]">
       {/* <h2 className="text-5xl hs w-[332px] font-bold mb-4 text-gray-800">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
@@ -146,7 +146,7 @@ const HeroSection = () => {
       
       </div>
       </div>
-      <div className="absolute bottom-[280px] xl:bottom-[100px] left-10 xl:left-20 z-50">
+      <div className="absolute bottom-[280px] xl:bottom-[120px] left-10 xl:left-20 z-50">
         <h1 className="hs text-white">
         Introducing <br />
         <span>a curated</span> selection of <br /> luxury tile
@@ -155,8 +155,8 @@ const HeroSection = () => {
 
       {/* form Content */}
       <div className="absolute hidden md:inline-block octagon1 top-[160px] xl:top-[100px] right-10 z-50 w-80">
-        <div className="relative bg-white top-[1px] left-[1px] w-[308px] h-[498px]">
-        <div className="pt-[21px]">
+        <div className="relative bg-white octagon1w top-[1px] left-[1px] w-[308px] h-[513px]">
+        <div className="pt-[21px] pb-[5px]">
         <h3>
           Schedule a <span>Private Consultation</span>
         </h3>
@@ -209,7 +209,7 @@ const HeroSection = () => {
             </div>
           </div>
           </div>
-          <div className="flex items-start gap-[15px] absolute top-[330px] justify-between">
+          <div className="flex items-start gap-[15px] absolute top-[340px] justify-between">
             <h6 className="inputhead1 mt-[10px]">Designers Name</h6>
             
           <div className="oct-2fd">
@@ -224,7 +224,7 @@ const HeroSection = () => {
           <button className="form-btn absolute oct-btnform bg-[#AE6C3E] text-white">
             BOOK NOW
           </button>
-          <div className="absolute flex flex-col text-center justify-center top-[445px]">
+          <div className="absolute flex flex-col text-center justify-center top-[460px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
             <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><div className="flex gap-[8px]"> <hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
           </div>

@@ -62,15 +62,15 @@ const Footer = () => {
           </div>
         </div>
         </div>
-  
         {/* Main Footer Section */}
-        <div className="max-w-[1440px] w-full min-h-[730px] h-auto justify-center xl:pl-[100px] xl:justify-end mx-auto flex flex-col md:flex-row ">
+        <div className="w-full px-0 xl:pl-[100px]">
+        <div className="max-w-[1440px] w-full min-h-[730px] h-auto justify-center xl:justify-end mx-auto flex flex-col md:flex-row ">
           {/* Founders Section */}
           <div className=" flex flex-col xl:flex-row w-full md:w-[62%] xl:w-[917px]">
-          <div className=" left-0 gap-[14px] px-[20px] xl:px-0 xl:pl-[40px] mt-[55px] flex flex-col ">
+          <div className=" left-0 gap-[14px] px-[20px] xl:px-0 mt-[55px] flex flex-col ">
             <h3 className="fhd text-[60px] text-left">Francisco & <br /> Margarita Acosta</h3>
             <h5 className="fhd2 text-[40px]">Founders</h5>
-            <p className="text-sm desc w-[240px] text-left mb-6">
+            <p className="text-sm desc w-[240px] xl:w-[270px] text-left mb-6">
             Margarita and Francisco are each natural stone connoisseurs in their own right. Together, they are visionaries and have become a driving force for innovation in their industry. They have re-imagined the way stone is sourced and purchased, bridging the gap between old-world access and modern convenience in a way others deemed impossible. <br /><br />
             Francisco and Margarita are thrilled to leverage the benefits of a strong national partner to help drive innovation and growth. Stone Boutique is committed to their focus on clients and providing the absolute finest quality materials on the market today.
             </p>
@@ -80,7 +80,7 @@ const Footer = () => {
             
           </div>
           
-          <div className="flex justify-end xl:pt-[20px] w-full xl:ml-[-20px] xl:w-[70%]">
+          <div className="flex justify-end xl:pt-[20px] w-full xl:w-[70%]">
           <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[263px] xl:w-[698px] xl:h-[710px]">
           <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[263px] xl:w-[698px] xl:h-[710px]" alt="" />
           </div>
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
   
           {/* Contact Form Section */}
-          <div className="bg-[#676057] flex flex-col items-center min-h-[630px] max-h-[auto] w-full md:w-[38%] xl:w-[480px] pl-[20px] pr-[20px] pt-[48px] pb-[38px] xl:pl-[73px] xl:pr-[73px] xl:pt-[55px] xl:right-[0px]">
+          <div className="bg-[#676057] flex flex-col items-center min-h-[630px] max-h-[auto] w-full md:w-[38%] xl:w-[520px] pl-[20px] pr-[20px] pt-[48px] pb-[38px] xl:pl-[73px] xl:pr-[73px] xl:pt-[55px] xl:right-[0px]">
             <div className="w-full xl:w-[332px]">
             <h3 className="text-lg formf font-bold mb-6">Schedule a <br /> <em>Private Consultation</em></h3>
             <p className="text-sm formf2 text-center mb-6">A specialist will be in touch shortly.</p>
@@ -132,12 +132,12 @@ const Footer = () => {
           <div className=" content-center h-[40px] w-[100%] flex relative">
             <h6 className="inph6h mt-[10px] w-[150px] xl:w-[210px] content-center">Are you working with a designer?</h6>
             <div className="oct-btn2af w-[53px] xl:w-[60px] h-[40px] right-[60px] xl:right-[68px]">
-            <button className="form-btn w-[51px] h-[38px] xl:w-[58px] oct-btn4f hover:text-[#AE6C3E] hover:bg-[#E4C9AF]">
+            <button className="form-btn w-[51px] h-[38px] xl:w-[58px] oct-btn4f hover:text-[#AE6C3E] hover:bg-[#F7EAD7]">
               Yes
             </button>
             </div>
             <div className="oct-btn2bf w-[53px] xl:w-[60px] h-[40px] right-0 xl:right-[0px]">
-            <button className="form-btn oct-btn4f w-[51px] h-[38px] xl:w-[58px] hover:text-[#AE6C3E] hover:bg-[#E4C9AF]">
+            <button className="form-btn oct-btn4f w-[51px] h-[38px] xl:w-[58px] hover:text-[#AE6C3E] hover:bg-[#F7EAD7]">
               No
             </button>
             </div>
@@ -169,6 +169,10 @@ const Footer = () => {
           </div>
             </div>
         </div>
+        </div>
+  
+        
+        
         
       </footer>
     );

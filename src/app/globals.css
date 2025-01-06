@@ -177,14 +177,24 @@ h1 span {
 .octagon1 {
   clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
   background: #E4C9AF;
-  height: 500px;
+  height: 515px;
   width: 310px;
   filter: drop-shadow(0px 20px 40px rgba(48, 43, 37, 0.20));
+}
+.octagon2 {
+  clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
+  background: #E4C9AF;
+  height: 525px;
+  width: 310px;
+  filter: drop-shadow(0px 20px 40px rgba(48, 43, 37, 0.20));
+}
+.octagon1w {
+  clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
 }
 .octagon {
   clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
   background: #E4C9AF;
-  height: 445px;
+  height: 455px;
   width: 310px;
   filter: drop-shadow(0px 20px 40px rgba(48, 43, 37, 0.20));
 }
@@ -207,7 +217,7 @@ h1 span {
 
 .form-input {
   padding: 0.75rem;
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
   transition: border-color 0.3s ease;
   width: 211px;
   height: 38px;
@@ -221,9 +231,10 @@ h1 span {
   line-height: normal;
   position: relative;
 }
+
 .form-input2 {
   padding: 0.75rem;
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
   transition: border-color 0.3s ease;
   width: 100%;
   height: 38px;
@@ -235,11 +246,13 @@ h1 span {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  
+  
 }
 
 .form-input3 {
   padding: 0.75rem;
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 27.7%, 100% 72.3%, 97% 100%, 3% 100%, 0% 72.3%, 0% 27.7%);
   transition: border-color 0.3s ease;
   width: 100%;
   height: 38px;
@@ -344,8 +357,8 @@ line-height: normal;
 
 
 .form-btn:hover {
-  background-color: #ae6c3e;
-  color: white;
+  background-color: #F7EAD7;
+  color: #ae6c3e;
 }
 
 .oct-btn {
@@ -498,7 +511,7 @@ h6{
   font-family: 'MrEavesXLModOT-Reg';
 }
 .oct-btn3 {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(7.5% 0%, 92.5% 0%, 100% 27.5%, 100% 72.5%, 92.5% 100%, 7.5% 100%, 0% 72.5%, 0% 27.5%);
   background: white;
   color: #AE6C3E;
   height: 38px;
@@ -526,7 +539,7 @@ h6{
   position: relative;
 }
 .oct-btn4f {
-  clip-path: polygon(13% 0%, 87% 0%, 100% 33%, 100% 67%, 87% 100%, 13% 100%, 0% 67%, 0% 33%);
+  clip-path: polygon(17% 0%, 83% 0%, 100% 33%, 100% 67%, 83% 100%, 17% 100%, 0% 67%, 0% 33%);
   background:  #676057;
   color: #FFF;
   text-align: center;
@@ -542,7 +555,17 @@ h6{
   background: #ae6c3e;
   color: white;
   position: absolute;
-  top: 380px;
+  top: 395px;
+  height: 50px; 
+  width: 269px;
+  transition: background-color 0.3s ease;
+}
+.oct-btnformnav {
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  background: #ae6c3e;
+  color: white;
+  position: absolute;
+  top: 400px;
   height: 50px; 
   width: 269px;
   transition: background-color 0.3s ease;
@@ -552,7 +575,7 @@ h6{
   background: #ae6c3e;
   color: white;
   position: absolute;
-  top: 330px;
+  top: 340px;
   height: 50px; 
   width: 269px;
   transition: background-color 0.3s ease;
@@ -566,7 +589,7 @@ h6{
   transition: background-color 0.3s ease;
 }
 .oct-btn2b {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(7.5% 0%, 92.5% 0%, 100% 27.5%, 100% 72.5%, 92.5% 100%, 7.5% 100%, 0% 72.5%, 0% 27.5%);
   right: 21px;
   width: 130px;
   height: 40px;
@@ -576,7 +599,7 @@ h6{
   
 }
 .oct-btn2bf {
-  clip-path: polygon(15% 0%, 85% 0%, 100% 35%, 100% 65%, 85% 100%, 15% 100%, 0% 65%, 0% 35%);
+  clip-path: polygon(17% 0%, 83% 0%, 100% 33%, 100% 67%, 83% 100%, 17% 100%, 0% 67%, 0% 33%);
   background: #E4C9AF;
   position: absolute;
   cursor: pointer;
@@ -585,7 +608,7 @@ h6{
 
 
 .oct-btn2a {
-  clip-path: polygon(6.5% 0%, 93.5% 0%, 100% 21.5%, 100% 78.5%, 93.5% 100%, 5.5% 100%, 0% 74.5%, 0% 25.5%);
+  clip-path: polygon(7.5% 0%, 92.5% 0%, 100% 27.5%, 100% 72.5%, 92.5% 100%, 7.5% 100%, 0% 72.5%, 0% 27.5%);
   left: 21px;
   width: 130px;
   height: 40px;
@@ -595,8 +618,8 @@ h6{
  
 }
 .oct-btn2af {
-  clip-path: polygon(13% 0%, 87% 0%, 100% 33%, 100% 67%, 87% 100%, 13% 100%, 0% 67%, 0% 33%);
   
+  clip-path: polygon(17% 0%, 83% 0%, 100% 33%, 100% 67%, 83% 100%, 17% 100%, 0% 67%, 0% 33%);
   background: #E4C9AF;
   position: absolute;
   cursor: pointer;
@@ -612,7 +635,7 @@ h6{
   line-height: 130%; /* 20.8px */
 }
 .oct-2f {
-      clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
   left: 1px;
   width: 213px;
   height: 40px;
@@ -621,7 +644,7 @@ h6{
   cursor: pointer;
 }
 .oct-2fd {
-  clip-path: polygon(5% 0%, 95% 0%, 100% 25%, 100% 75%, 95% 100%, 5% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
   left: 1px;
   width: 163px;
   height: 40px;
@@ -630,8 +653,8 @@ h6{
   cursor: pointer;
 }
 .form-input1 {
-  padding: 0.75rem;
-  clip-path: polygon(5% 0%, 95% 0%, 100% 25%, 100% 75%, 95% 100%, 5% 100%, 0% 75%, 0% 25%);
+  
+  clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
   transition: border-color 0.3s ease;
   width: 161px;
   height: 38px;
@@ -646,7 +669,7 @@ h6{
   position: relative;
 }
 .oct-2ff {
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
   left: 1px;
   width: 100%;
   padding: 1px;
@@ -656,7 +679,7 @@ h6{
   cursor: pointer;
 }
 .oct-2ffinput {
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 27.7%, 100% 72.3%, 97% 100%, 3% 100%, 0% 72.3%, 0% 27.7%);
   left: 1px;
   width: 100%;
   padding: 1px;
@@ -780,7 +803,7 @@ h6{
   display: inline-block;
 }
 .oct-2ff2 {
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  clip-path: polygon(3% 0%, 97% 0%, 100% 27.7%, 100% 72.3%, 97% 100%, 3% 100%, 0% 72.3%, 0% 27.7%);
   left: 1px;
   width: 100%;
   padding: 1px;
@@ -978,9 +1001,9 @@ h6{
   }
 
 }
-@media screen and (width > 1025px) {
+@media screen and (min-width: 768px) and (max-width: 1025px) {
   .oct-2ff {
-    clip-path: polygon(5% 0%, 95% 0%, 100% 25%, 100% 75%, 95% 100%, 5% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(3% 0%, 97% 0%, 100% 27.7%, 100% 72.3%, 97% 100%, 3% 100%, 0% 72.3%, 0% 27.7%);
     left: 1px;
     width: 100%;
     padding: 1px;
@@ -988,6 +1011,61 @@ h6{
     background: #E4C9AF;
     position: relative;
     cursor: pointer;
+  
+ 
+}
+.form-input2 {
+  padding: 0.75rem;
+  clip-path: polygon(3% 0%, 97% 0%, 100% 27.7%, 100% 72.3%, 97% 100%, 3% 100%, 0% 72.3%, 0% 27.7%);
+  transition: border-color 0.3s ease;
+  width: 100%;
+  height: 38px;
+  background: #676057 0.50%;
+  position: relative;
+  color: rgba(48, 43, 37, 0.30);
+  font-family: 'MrEavesXLModOT-Reg';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ 
+}
+}
+
+@media screen and (width > 1025px) {
+  .oct-2ff {
+    clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
+    left: 1px;
+    width: 213px;
+    height: 40px;
+    background: #E4C9AF;
+    position: relative;
+    cursor: pointer;
+    left: 1px;
+    width: 100%;
+    padding: 1px;
+    height: 40px;
+    background: #E4C9AF;
+    position: relative;
+    cursor: pointer;
+    
+ 
+}
+.form-input2 {
+  padding: 0.75rem;
+  clip-path: polygon(5.7% 0%, 94.7% 0%, 100% 29.7%, 100% 71.3%, 94.7% 100%, 5.7% 100%, 0% 71.3%, 0% 29.7%);
+  transition: border-color 0.3s ease;
+  width: 100%;
+  height: 38px;
+  background: #676057 0.50%;
+  position: relative;
+  color: rgba(48, 43, 37, 0.30);
+  font-family: 'MrEavesXLModOT-Reg';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ 
 }
 
 .octagonheader {

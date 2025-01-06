@@ -35,13 +35,14 @@ export default function Navigation2() {
         </button>
         
         {isConsultMenuOpen && (
-          <div className="absolute octagon1  top-[160px] md:top-[100px] right-10 z-50  shadow-lg w-80">
-          <div className="relative bg-white top-[1px] left-[1px] w-[308px] h-[498px]">
-          <div className="pt-[21px]">
-          <h3>
-            Schedule a <span>Private Consultation</span>
-          </h3>
-          </div>
+          <div className="absolute octagon2  top-[160px] md:top-[100px] right-10 z-50  shadow-lg w-80">
+          <div className="relative  octagon1w bg-white top-[1px] left-[1px] w-[308px] h-[523px]">
+          <div className="pt-[21px] pb-[5px]">
+        <h3>
+          Schedule <span>Private Consultation</span>
+        </h3>
+        </div>
+        <p className="form2 text-center">A specialist will be in touch shortly.</p>
           
           <form className="p-5 flex flex-col gap-[15px]">
             <div className="flex items-center justify-between">
@@ -89,7 +90,7 @@ export default function Navigation2() {
               </div>
             </div>
             </div>
-            <div className="flex items-start gap-[15px] absolute top-[320px] justify-between">
+            <div className="flex items-start gap-[15px] absolute top-[345px] justify-between">
               <h6 className="inputhead1 mt-[10px]">Designers Name</h6>
               
             <div className="oct-2fd">
@@ -101,10 +102,10 @@ export default function Navigation2() {
             </div>
             
             </div>
-            <button className="form-btn absolute oct-btnform bg-[#AE6C3E] text-white">
+            <button className="form-btn absolute oct-btnformnav bg-[#AE6C3E] text-white">
               BOOK NOW
             </button>
-            <div className="absolute flex flex-col text-center justify-center top-[445px]">
+            <div className="absolute flex flex-col text-center justify-center top-[470px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
             <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><div className="flex gap-[8px]"><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
           </div>
