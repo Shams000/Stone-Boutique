@@ -22,7 +22,7 @@ const ExperienceSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="w-full py-[100px] gallery h-[100vh] xl:w-[100%] min-h-[960px] relative overflow-hidden bg-gray-100">
+    <section className="w-full py-[100px] lg:py-0 gallery h-[100vh] xl:w-[100%] min-h-[960px] relative overflow-hidden bg-gray-100">
       {/* Header Section */}
      
 
