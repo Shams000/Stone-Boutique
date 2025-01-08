@@ -51,7 +51,7 @@ const ExperienceSection = () => {
           <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
           <button
             onClick={() => swiperRef.current?.slideNext()}
-            className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"
+            className=" flex items-center justify-center  tetradecagon "
           >
             &rarr;
           </button>
@@ -71,7 +71,7 @@ const ExperienceSection = () => {
     slidesPerView={"auto"} /* Show all slides in a queue */
     centeredSlides={true} /* Center the active slide */
     spaceBetween={30}
-    className="swiper-backface-visible gap-[200px]" /* Added class */
+    className=" gap-[200px]" /* Added class */
     onSwiper={(swiper) => (swiperRef.current = swiper)}
     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
 >

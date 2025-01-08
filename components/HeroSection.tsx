@@ -121,7 +121,7 @@ const HeroSection = () => {
       </div>
       <div className=" right-10 flex gap-4 z-10">
         
-        <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
+        <div className="w-[70px] h-[70px] relative border tetradecagon1 hover:bg-[#AE6C3E]">
           <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
           <button
           onClick={() => swiperRef.current?.slidePrev()}

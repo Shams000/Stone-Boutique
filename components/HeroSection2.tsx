@@ -201,7 +201,7 @@ const HeroSection2 = () => {
           <div className="flex flex-col w-full justify-between md:justify-between items-start gap-4 px-[40px] xl:px-0 ">
             <div className="gap-[45px] items-center flex flex-col xl:flex-row"> 
                 <h6 className="headerpartner1">The <em>pinnacle</em> of the stone industry</h6>
-            <div className="flex flex-col md:flex-row gap-[20px] justify-start">
+            <div className="flex flex-col md:flex-row gap-[20px] lg:mt-[20px] justify-start">
             <p className="para max-w-[400px]">After 30 successful years in the natural stone industry we saw a glaring need for change. Why, in an industry focused on beauty, design and luxury, was the buying process so grueling? Hot, dusty warehouses, an inability to view extensive slab options efficiently, confusing price structures, and unreliable processes went against everything we wanted to offer you.</p>
             <img src="/Vector 17.svg" className=" hidden md:inline-block" alt="" />
             
