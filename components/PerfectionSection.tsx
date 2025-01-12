@@ -2,7 +2,7 @@
 
 const PerfectionSection = () => {
   return (
-    <section className="bg-[#f8f5f0] relative min-h-[1150px] justify-between xl:h-[100vh] xl:w-[100%] w-full flex flex-col items-center pt-[63px]">
+    <section className="bg-[#f8f5f0] relative min-h-[1150px] xl:justify-end xl:gap-[300px] xl:h-[100vh] xl:w-[100%] w-full flex flex-col items-center pt-[63px]">
       {/* Steps Section */}
       <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-[50px] xl:w-[941px] xl:grid-cols-4 md:gap-8">
         {/* Step 1 */}
@@ -25,7 +25,7 @@ const PerfectionSection = () => {
             className="w-[196px] h-[233px] rounded-t-full overflow-hidden bg-cover bg-center relative"
             style={{ backgroundImage: "url('/Rectangle 19.png')" }}
           >
-            <button className="absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] bg-white text-[#AE6C3E] rounded-full w-[56px] h-[56px] p-4">
+            <button className="absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] bg-white text-[#AE6C3E] text-[20px]  rounded-full w-[56px] h-[56px] p-4">
               ▶
             </button>
           </div>
@@ -69,7 +69,7 @@ const PerfectionSection = () => {
       </div>
 
       {/* Divider */}
-      <div className="bgstone relative w-full max-w-[1440px] mt-[300px] pb-[48px] mb:pb-0">
+      <div className="bgstone relative w-full max-w-[1440px] mt-[0px] pb-[48px] mb:pb-0">
       <div className="absolute top-[25%] md:top-[2%] right-[20%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
@@ -89,10 +89,10 @@ const PerfectionSection = () => {
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] md:gap-8 mt-8">
-          <button className="bg-[#AE6C3E] oct-btn w-[321px] md:w-[345px] text-white hover:bg-[#8e5733] transition">
+          <button className="bg-[#AE6C3E] oct-btn w-[321px] md:w-[345px] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
             Schedule a Private Consultation
           </button>
-          <button className="bg-white oct-btn2nd w-[321px] md:w-[345px] text-[#AE6C3E] hover:bg-gray-200 transition">
+          <button className="bg-white oct-btn2nd w-[321px] md:w-[345px] text-[#AE6C3E] hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
             Shop Our Stones
           </button>
         </div>

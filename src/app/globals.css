@@ -209,6 +209,11 @@ h1 span {
   box-shadow: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.07));
   
 }
+.octagonheader00t {
+  clip-path: polygon(0% 0%, 95% 0%, 100% 0%, 100% 78%, 98% 100%, 2% 100%, 0% 68%, 0% 50%);
+  
+  
+}
 .octagonmenu {
   clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
   background: #E4C9AF;
@@ -375,6 +380,7 @@ line-height: normal;
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .oct-btnnav {
   clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #ae6c3e;
@@ -963,7 +969,7 @@ h6{
   top: 16px;
   width: 320px;
   right: 72px; /* Adjust for toggle button */;
-  background-color: #8b5e3c;
+  background-color: #AE6C3E;
   color: white;
   list-style: none;
   padding: 20px;
@@ -1074,13 +1080,20 @@ h6{
  
 }
 
-.octagonheader {
-  clip-path: polygon(0% 0%, 85% 0%, 100% 2%, 100% 98%, 85% 100%, 0% 100%, 0% 75%, 0% 22%);
-  box-shadow: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.07));
-  
-}
-}
 
+}
+@media screen and (width > 1280px) {
+  .octagonheader {
+    clip-path: polygon(0% 0%, 85% 0%, 100% 2%, 100% 98%, 85% 100%, 0% 100%, 0% 75%, 0% 22%);
+    box-shadow: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.07));
+    
+  }
+  .octagonheader00 {
+    clip-path: polygon(0% 0%, 85% 0%, 100% 2%, 100% 98%, 85% 100%, 0% 100%, 0% 75%, 0% 22%);
+    box-shadow: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.07));
+    
+  }
+}
 
 
 .swiper-backface-visible {

@@ -112,10 +112,10 @@ const HeroSection = () => {
       
       <div className=" w-full gap-[35px] px-[40px] xl:px-20 flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
       <div className=" flex-col flex xl:flex-row gap-4 z-50">
-        <button className="oct-btn bg-[#AE6C3E] text-white px-6 py-3 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <button className="oct-btn bg-[#AE6C3E] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF] ">
           Schedule a Private Consultation
         </button>
-        <button className="bg-white oct-btn2 text-[#AE6C3E] px-6 py-3 rounded hover:bg-gray-200 transition-transform duration-300 ease-in-out">
+        <button className="bg-white oct-btn2 text-[#AE6C3E] px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Shop Our Stones
         </button>
       </div>
@@ -135,7 +135,7 @@ const HeroSection = () => {
           <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
           <button
           onClick={() => swiperRef.current?.slideNext()}
-          className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"
+          className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] hover:w-[50px] hover:h-[50px] hover:top-[7px] hover:left-[7px] transition"
         >
           &rarr;
         </button>

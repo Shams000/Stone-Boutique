@@ -26,7 +26,7 @@ export default function Navigation2() {
   return (
     <div className="top-right-nav flex gap-[20px]">
         
-        <button className="oct-btnnav right-[100px] md:top-[100px] xl:top-[16px] hidden md:inline-block fixed bg-[#AE6C3E] text-white hover:scale-105 transition-transform duration-300 ease-in-out">
+        <button className="oct-btnnav right-[100px] md:top-[100px] xl:top-[16px] hidden md:inline-block fixed bg-[#AE6C3E] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Schedule a Private Consultation
         </button>
         
@@ -117,7 +117,7 @@ export default function Navigation2() {
         {/* Menu Toggle Button */}
         
         <button className="menu-toggle top-[80px] md:top-[95px] xl:top-[11px] right-[16px] tetradecagonl" onClick={toggleMenu}>
-        {isMenuOpen ? "✖" : "☰"}
+        {isMenuOpen ? <img src="logos/Group 4.svg" alt="" /> : "☰"}
         </button>
 
       {/* Navigation Menu */}

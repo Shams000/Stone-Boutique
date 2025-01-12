@@ -28,12 +28,12 @@ const ExperienceSection = () => {
 
       {/* Full-width Slider */}
       <div className="relative gap-[200px] h-full flex items-center min-h-[960px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
-      <div className="absolute gallery1 pl-[45px] pt-[60px] lg:pt-[60px] min-h-[720px] w-[372px] flex flex-col items-start z-50 md:left-[10px] xl:left-[80px] text-left">
+      <div className="absolute gallery1 pl-[45px] pt-[60px] lg:pt-[60px] min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[10px] xl:left-[130px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
 
-        <button className="bg-[#AE6C3E] oct-btng text-white px-6 py-3 mt-6 hover:bg-white hover:text-[#AE6C3E] transition duration-300">
+        <button className="bg-[#AE6C3E] oct-btng text-white px-6 py-3 mt-6 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Shop Our Stones
         </button>
         <div className="absolute bottom-[30px] md:bottom-[10px] left-10 flex gap-4 z-10">
@@ -70,38 +70,40 @@ const ExperienceSection = () => {
     loop={true}
     slidesPerView={"auto"} /* Show all slides in a queue */
     centeredSlides={true} /* Center the active slide */
-    spaceBetween={30}
-    className=" gap-[200px]" /* Added class */
+    spaceBetween={0}
+    className="xl:pl-[70px] h-[full]" /* Added class */
     onSwiper={(swiper) => (swiperRef.current = swiper)}
     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
 >
     {slides.map((slide, index) => (
         <SwiperSlide
             key={slide.id}
-            className={`flex gap-[80px] items-center h-full w-auto transition-transform duration-[800ms] ease-in-out ${
+            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] xl:pl-[40px]  transition-transform duration-[800ms] ease-in-out ${
                 activeIndex === index
                     ? "scale-100 opacity-100"
                     : "scale-90 opacity-50"
             }`}
             style={{
                 width: "640px",
-                height: "713px",
+                height: "760px",
                 display: "flex",
-                justifyContent: "space-between xl:h-full xl:w-auto",
+                justifyContent: "space-between xl:h-full  xl:w-auto",
             }}
         >
-            <div className="gap-[200px] overflow-hidden">
+            <div className="h-full overflow-hidden">
                 <img
                     src={slide.image}
                     alt={slide.title}
-                    className="w-[640px] flex justify-between h-[713px] xl:h-full xl:w-auto"
+                    className="w-[640px] flex justify-between h-[713px] xl:h-[93%] xl:w-auto"
                 />
-                <h3 className=" mt-[-20px] text-left exsl">
+                <h3 className=" mt-[-40px] text-left exsl">
                     {slide.title}
                 </h3>
-                <p className=" text-left exslp">
+                <div className="flex w-full justify-between">
+                  <p className=" text-left exslp">
                 Shop this Stone
                 </p>
+                <img src="/logos/arrowl.svg" /></div>
             </div>
         </SwiperSlide>
     ))}
