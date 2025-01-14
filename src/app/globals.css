@@ -133,7 +133,9 @@ h1 {
   display: block;        /* Make the image a block element */  
   margin-left: auto;    /* Auto margin on left */  
   margin-right: auto;
-  height: 326px;
+  background-position: center;
+  object-fit: cover;
+  
 }
 .hs span{
   font-family: 'Emberly';
@@ -696,7 +698,7 @@ h6{
 }
 
 .tetradecagon2 {
-  background: #CAC5BC 100%;
+  background: transparent;
   clip-path: polygon(
     50% 0%,    /* Top center */
     74% 6%,    /* Top-right (closer to center) */
@@ -732,12 +734,14 @@ h6{
     50% 0%     /* Top-center */
   );
   display: inline-block;
+  
 }
+
 .tetradecagon {
   width: 70px;
   height: 70px;
   background-color: #F7EAD7;
-  color: #8e5733;
+  color: #AE6C3E;
   position: absolute;
   clip-path: polygon(
     50% 0%,    /* Top center */

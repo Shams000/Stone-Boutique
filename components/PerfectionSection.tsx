@@ -2,7 +2,7 @@
 
 const PerfectionSection = () => {
   return (
-    <section className="bg-[#f8f5f0] relative min-h-[1150px] xl:justify-end xl:gap-[300px] xl:h-[100vh] xl:w-[100%] w-full flex flex-col items-center pt-[63px]">
+    <section className="bg-[#f8f5f0] relative min-h-[1150px] justify-between gap-[80px] xl:justify-end xl:gap-[300px] xl:h-[100vh] xl:w-[100%] w-full flex flex-col items-center pt-[63px]">
       {/* Steps Section */}
       <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-[50px] xl:w-[941px] xl:grid-cols-4 md:gap-8">
         {/* Step 1 */}
@@ -69,8 +69,8 @@ const PerfectionSection = () => {
       </div>
 
       {/* Divider */}
-      <div className="bgstone relative w-full max-w-[1440px] mt-[0px] pb-[48px] mb:pb-0">
-      <div className="absolute top-[25%] md:top-[2%] right-[20%] group">
+      <div className="bgstone relative w-full max-w-[1440px] mt-[210px] md:mt-[180px] h-[396px] md:h-[326px] xl:mt-[0px] pb-[48px] mb:pb-0">
+      <div className="absolute top-[42%] md:top-[2%] right-[42%] md:right-[20%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
@@ -78,17 +78,17 @@ const PerfectionSection = () => {
             </div>
      
 
-        <div className="mt-[-210px] mb:mt-[-120px] xl:mt-[-190px]">
+        <div className="mt-[-170px] md:mt-[-210px] md:mb-[0px] mb-[180px]  xl:mt-[-190px]">
           {/* Title Section */}
         <div className="text-center">
-          <h2 className="perfection">A Passion for <br /> <span className="perfection2 text-[100px] xl:text-[180px]">Perfection</span></h2>
-          <p className="text-xl pr1 italic text-[#AE6C3E] mt-4">
+          <h2 className="perfection">A Passion for <br /> <span className="perfection2 text-[100px] md:text-[180px]">Perfection</span></h2>
+          <p className="text-xl pr1 italic text-[#AE6C3E] md:mt-4">
           — In our industry, <br /> <span className="pr2">with our products, for our clients</span>
           </p>
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] md:gap-8 mt-8">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] md:gap-8 mt-[60px] md:mt-8">
           <button className="bg-[#AE6C3E] oct-btn w-[321px] md:w-[345px] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
             Schedule a Private Consultation
           </button>

@@ -7,6 +7,7 @@ import Footer from "../../components/Footer";
 import NavigationMenu from "../../components/Navigation";
 import NavigationMenu2 from "../../components/Navigation2";
 
+
 // import Footer from "../../components/Footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <HeroSection2 />
       <GallerySlider />
       <PerfectionSection/>
+     
       <Footer />
     </div>
   );

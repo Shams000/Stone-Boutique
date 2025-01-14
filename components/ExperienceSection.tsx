@@ -22,13 +22,13 @@ const ExperienceSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="w-full py-[100px] lg:py-0 gallery h-[100vh] xl:w-[100%] min-h-[960px] relative overflow-hidden bg-gray-100">
+    <section className="w-full py-0 gallery h-[100vh] xl:w-[100%]  min-h-[1160px] md:min-h-[960px] relative overflow-hidden bg-gray-100">
       {/* Header Section */}
      
 
       {/* Full-width Slider */}
-      <div className="relative gap-[200px] h-full flex items-center min-h-[960px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
-      <div className="absolute gallery1 pl-[45px] pt-[60px] lg:pt-[60px] min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[10px] xl:left-[130px] text-left">
+      <div className="relative gap-[200px] h-full flex items-center min-h-[1160px] md:min-h-[960px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
+      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[60px] h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[40px] xl:left-[130px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
@@ -36,12 +36,12 @@ const ExperienceSection = () => {
         <button className="bg-[#AE6C3E] oct-btng text-white px-6 py-3 mt-6 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Shop Our Stones
         </button>
-        <div className="absolute bottom-[30px] md:bottom-[10px] left-10 flex gap-4 z-10">
+        <div className="absolute bottom-[30px] md:bottom-[10px] left-[20px] md:left-10 flex gap-4 z-10">
         <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
           <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
           <button
             onClick={() => swiperRef.current?.slidePrev()}
-            className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"
+            className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#AE6C3E] transition"
           >
             &larr;
           </button>
@@ -71,14 +71,14 @@ const ExperienceSection = () => {
     slidesPerView={"auto"} /* Show all slides in a queue */
     centeredSlides={true} /* Center the active slide */
     spaceBetween={0}
-    className="xl:pl-[70px] h-[full]" /* Added class */
+    className="xl:pl-[70px] md:mt-0 mt-[160px] pl-[180px] md:pl-[380px] h-[full]" /* Added class */
     onSwiper={(swiper) => (swiperRef.current = swiper)}
     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
 >
     {slides.map((slide, index) => (
         <SwiperSlide
             key={slide.id}
-            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] xl:pl-[40px]  transition-transform duration-[800ms] ease-in-out ${
+            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[130px] md:ml-[520px] md:pl-[80px] xl:pl-[40px]  transition-transform duration-[800ms] ease-in-out ${
                 activeIndex === index
                     ? "scale-100 opacity-100"
                     : "scale-90 opacity-50"

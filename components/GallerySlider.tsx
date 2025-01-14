@@ -24,10 +24,10 @@ const GallerySlider = () => {
   };
 
   return (
-    <section className="gallery w-full lg:w-[100%] xl:h-[100vh] min-h-[1100px] relative justify-center items-center pt-[60px] pb-[60px] 2xl:pt-[80px] 2xl:pb-[80px] ">
+    <section className="gallery w-full lg:w-[100%] xl:h-[100vh] md:min-h-[1100px] relative justify-center items-center md:pt-[60px] md:pb-[60px] 2xl:pt-[80px] 2xl:pb-[80px] ">
       {/* Vertical Text and Navigation */}
-      <div className="relative xl:h-full min-h-[960px] bottom-0 ">
-      <div className="absolute left-0 min-h-[760px] md:left-[230px] top-1/2 bottom-1/2 gap-56 transform -translate-y-1/2 flex flex-col md:justify-between h-[657px] md:h-full gallery w-[140px] pt-[150px] items-center z-10">
+      <div className="relative xl:h-full h-full md:min-h-[960px] bottom-0 ">
+      <div className="absolute left-0 min-h-[760px] md:left-[230px] top-1/2 bottom-1/2 gap-56 transform -translate-y-1/2 flex flex-col md:justify-between :h-full gallery w-[140px] pt-[80px] md:pt-[150px] items-center z-10">
         <p className="transform w-[300px] eg -rotate-90 text-[#AE6C3E] font-bold uppercase tracking-wider">
           Explore Gallery
         </p>
@@ -46,7 +46,7 @@ const GallerySlider = () => {
           <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
           <button
             onClick={scrollRight}
-            className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"
+            className="bg-[#F7EAD7] text-[#8e5733] font-extrabold hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"
           >
             →
           </button>
@@ -59,7 +59,7 @@ const GallerySlider = () => {
       {/* Gallery Content */}
       <div
         ref={scrollContainerRef}
-        className="flex gap-4 xl:h-full items-center min-h-[960px] overflow-x-scroll relative scroll-smooth scrollbar-hidden"
+        className="flex gap-4 xl:h-full items-center min-h-[860px]  md:min-h-[960px] overflow-x-scroll relative scroll-smooth scrollbar-hidden"
       >
         {/* Left Image */}
         <div className="flex-shrink-0 left-[-450px] xl:h-full xl:w-auto md:left-[-450px] lg:left-[-550px] md:w-[700px]  overflow-hidden relative">
@@ -73,14 +73,14 @@ const GallerySlider = () => {
         </div>
 
         {/* Middle Large Image */}
-        <div className="relative left-[-370px] md:h-full md:w-full md:left-[-350px] lg:left-[-450px] flex gap-[40px]">
+        <div className="relative left-[-370px] min-h-full md:h-full md:w-full md:left-[-350px] lg:left-[-450px] flex gap-[40px]">
         <div className=" flex-shrink-0 md:w-auto xl:w-auto h-[580px] xl:h-auto md:h-auto overflow-hidden relative">
           <Image
             src="/rectangle 12 (1).png"
             alt="Gallery Item 2"
             width={216}
             height={597}
-            className="md:h-full xl:h-full xl:w-auto  md:w-auto"
+            className="h-full xl:h-full xl:w-auto w-auto"
           />
           <div className="absolute top-[50%] left-[50%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
