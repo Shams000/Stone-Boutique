@@ -27,7 +27,7 @@ const GallerySlider = () => {
     <section className="gallery w-full lg:w-[100%] xl:h-[100vh] md:min-h-[1100px] relative justify-center items-center md:pt-[60px] md:pb-[60px] 2xl:pt-[80px] 2xl:pb-[80px] ">
       {/* Vertical Text and Navigation */}
       <div className="relative xl:h-full h-full md:min-h-[960px] bottom-0 ">
-      <div className="absolute left-0 min-h-[760px] md:left-[230px] top-1/2 bottom-1/2 gap-56 transform -translate-y-1/2 flex flex-col md:justify-between :h-full gallery w-[140px] pt-[80px] md:pt-[150px] items-center z-10">
+      <div className="absolute left-0 min-h-[760px] md:left-[230px] top-1/2 bottom-1/2 gap-56 transform -translate-y-1/2 flex flex-col md:justify-between h-full gallery w-[140px] pt-[80px] md:pt-[150px] items-center z-10">
         <p className="transform w-[300px] eg -rotate-90 text-[#AE6C3E] font-bold uppercase tracking-wider">
           Explore Gallery
         </p>
