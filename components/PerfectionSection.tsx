@@ -78,7 +78,7 @@ const PerfectionSection = () => {
             </div>
      
 
-        <div className="mt-[-170px] md:mt-[-210px] md:mb-[0px] mb-[180px]  xl:mt-[-190px]">
+        <div className="mt-[-170px] md:mt-[-210px] md:mb-[0px] mb-[180px]  xl:mt-[-200px]">
           {/* Title Section */}
         <div className="text-center">
           <h2 className="perfection">A Passion for <br /> <span className="perfection2 text-[100px] md:text-[180px]">Perfection</span></h2>

@@ -110,12 +110,12 @@ const HeroSection = () => {
         </h1> */}
        
       
-      <div className=" w-full gap-[35px] px-[40px] xl:px-20 flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
-      <div className=" flex-col flex xl:flex-row gap-4 z-50">
-        <button className="oct-btn bg-[#AE6C3E] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF] ">
+      <div className=" w-full gap-[35px] px-[20px] xl:px-20 flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
+      <div className=" flex-col flex w-full xl:flex-row gap-4 z-50">
+        <button className="oct-btn bg-[#AE6C3E] md:w-[347px] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF] ">
           Schedule a Private Consultation
         </button>
-        <button className="bg-white oct-btn2 text-[#AE6C3E] px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
+        <button className="bg-white oct-btn2 md:w-[347px] text-[#AE6C3E] px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Shop Our Stones
         </button>
       </div>
@@ -146,7 +146,7 @@ const HeroSection = () => {
       
       </div>
       </div>
-      <div className="absolute bottom-[280px] xl:bottom-[120px] left-10 xl:left-20 z-50">
+      <div className="absolute bottom-[280px] xl:bottom-[120px] left-[20px] md:left-10 xl:left-20 z-50">
         <h1 className="hs text-white">
         Introducing <br />
         <span>a curated</span> selection of <br /> luxury tile
@@ -154,7 +154,7 @@ const HeroSection = () => {
       </div>
 
       {/* form Content */}
-      <div className="absolute hidden md:inline-block octagon1 top-[160px] xl:top-[100px] right-10 z-50 w-80">
+      <div className="absolute hidden lg:inline-block octagon1 top-[160px] xl:top-[100px] right-10 z-50 w-80">
         <div className="relative bg-white octagon1w top-[1px] left-[1px] w-[308px] h-[513px]">
         <div className="pt-[21px] pb-[5px]">
         <h3>
