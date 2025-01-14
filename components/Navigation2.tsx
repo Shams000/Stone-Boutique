@@ -1,4 +1,5 @@
 "use client";
+import { img } from "framer-motion/client";
 import { useState } from "react";
 
 export default function Navigation2() {
@@ -117,11 +118,11 @@ export default function Navigation2() {
         {/* Menu Toggle Button */}
         
         <button className="menu-toggle top-[80px] md:top-[95px] xl:top-[11px] right-[16px] tetradecagonl" onClick={toggleMenu}>
-        {isMenuOpen ? <img src="logos/Group 4.svg" alt="" /> : "☰"}
+        {isMenuOpen ? <img src="logos/Group 4.svg" alt="" /> : <img src="logos/Group 4a.svg" alt="" />  }
         </button>
 
       {/* Navigation Menu */}
-      <div className= {`menu gap[20px] octagon h-[450px] mt-[140px] md:mt-[100px] ${isMenuOpen ? "show" : ""}`}>
+      <div className= {`menu gap[20px] octagon h-[450px] mt-[140px] md:mt-[150px] xl:mt-[80px] ${isMenuOpen ? "show" : ""}`}>
       <ul>
         <li className="navdetail">
             Home
