@@ -32,8 +32,8 @@ const GallerySlider = () => {
           Explore Gallery
         </p>
         <div className="flex flex-col items-center space-y-4">
-          <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
-          <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
+        <div className="w-[70px] h-[70px] relative tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
+        <div className="absolute inset-0 hover hover:border tetradecagon2  hover:scale-[0.94] transition-transform">
           <button
             onClick={scrollLeft}
             className="bg-[#F7EAD7]  text-[#8e5733] hover:bg-[#8e5733] hover:text-white flex items-center justify-center tetradecagon transition"
@@ -42,8 +42,8 @@ const GallerySlider = () => {
           </button>
           </div>
           </div>
-          <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
-          <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
+          <div className="w-[70px] h-[70px] relative tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
+  <div className="absolute inset-0 hover hover:border tetradecagon2  hover:scale-[0.94] transition-transform">
           <button
             onClick={scrollRight}
             className="bg-[#F7EAD7] text-[#8e5733] font-extrabold hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"

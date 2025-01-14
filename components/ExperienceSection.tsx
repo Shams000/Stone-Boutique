@@ -28,7 +28,7 @@ const ExperienceSection = () => {
 
       {/* Full-width Slider */}
       <div className="relative gap-[200px] h-full flex items-center min-h-[1160px] md:min-h-[960px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
-      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[60px] h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[40px] xl:left-[130px] text-left">
+      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[120px] h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[40px] xl:left-[130px] lxl:left-[330px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
@@ -36,27 +36,28 @@ const ExperienceSection = () => {
         <button className="bg-[#AE6C3E] oct-btng text-white px-6 py-3 mt-6 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Shop Our Stones
         </button>
-        <div className="absolute bottom-[30px] md:bottom-[10px] left-[20px] md:left-10 flex gap-4 z-10">
-        <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
-          <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
-          <button
-            onClick={() => swiperRef.current?.slidePrev()}
-            className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#AE6C3E] transition"
-          >
-            &larr;
-          </button>
-          </div>
-          </div>
-          <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
-          <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
-          <button
-            onClick={() => swiperRef.current?.slideNext()}
-            className=" flex items-center justify-center  tetradecagon "
-          >
-            &rarr;
-          </button>
-          </div>
-          </div>
+        <div className="absolute bottom-[30px] md:bottom-[10px] lg:bottom-[120px] left-[20px] md:left-10 flex gap-4 z-10">
+        <div className="w-[70px] h-[70px] relative tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
+  <div className="absolute inset-0 hover hover:border tetradecagon2  hover:scale-[0.94] transition-transform">
+    <button
+      onClick={() => swiperRef.current?.slidePrev()}
+      className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition"
+    >
+      &larr;
+    </button>
+  </div>
+</div>
+
+<div className="w-[70px] h-[70px] relative  tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
+  <div className="absolute inset-0 w-full h-full tetradecagon2  hover:scale-[0.94] transition-transform">
+    <button
+      onClick={() => swiperRef.current?.slideNext()}
+      className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition"
+    >
+      &rarr;
+    </button>
+  </div>
+</div>
           
         </div>
       </div>

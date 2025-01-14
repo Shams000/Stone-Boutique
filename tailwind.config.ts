@@ -20,6 +20,13 @@ export default {
         MrEavesXLModNarOTBook: ["MrEavesXLModNarOT-Book"]
 
       },
+      screens: {
+        md: "767px", //laptop
+        xl: "1440px", //desktop
+        
+        'lxl': "1920px", 
+        "10xl": "2880px", // ultra wide
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

@@ -104,8 +104,8 @@ const HeroSection2 = () => {
           </div>
         </SwiperSlide>
         <div className="absolute bottom-[40px] md:right-10 flex w-[100%] justify-between px-[20px] md:px-0 gap-4 z-10 md:w-[156px]">
-      <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
-          <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
+        <div className="w-[70px] h-[70px] relative tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
+        <div className="absolute inset-0 hover hover:border tetradecagon2  hover:scale-[0.94] transition-transform">
           <button
           onClick={() => swiperRef.current?.slidePrev()}
           className="bg-[#F7EAD7]  text-[#8e5733] hover:bg-[#8e5733] hover:text-white flex items-center justify-center tetradecagon transition"
@@ -114,8 +114,8 @@ const HeroSection2 = () => {
         </button>
           </div>
           </div>
-          <div className="w-[70px] h-[70px] relative border tetradecagon1 bg-[#AE6C3E]">
-          <div className="hover:w-[66px] w-[70px] h-[70px] hover:h-[66px] absolute top-[-1px] left-[-1px] hover:top-[1px] hover:left-[1px] border tetradecagon2 border-[#AE6C3E]">
+          <div className="w-[70px] h-[70px] relative tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
+  <div className="absolute inset-0 hover hover:border tetradecagon2  hover:scale-[0.94] transition-transform">
           <button
           onClick={() => swiperRef.current?.slideNext()}
           className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"

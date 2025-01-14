@@ -790,17 +790,7 @@ h6{
   line-height: 140%; /* 70px */
   letter-spacing: -0.5px;
 }
-
-.tetradecagon:hover {
-  padding: 20px;
-  width: 50px;
-  height: 50px;
-  color: white;
-  background-color: #8e5733;
-  position: absolute;
-  top: 7px;
-  left: 7px;
-  
+.tetradecagon1, .tetradecagon2 {
   clip-path: polygon(
     50% 0%,    /* Top center */
     74% 6%,    /* Top-right (closer to center) */
@@ -816,8 +806,8 @@ h6{
     26% 6%,    /* Top (near left) */
     50% 0%     /* Top-center */
   );
-  
 }
+
 .oct-2ff2 {
   clip-path: polygon(3% 0%, 97% 0%, 100% 27.7%, 100% 72.3%, 97% 100%, 3% 100%, 0% 72.3%, 0% 27.7%);
   left: 1px;
@@ -1203,4 +1193,5 @@ h6{
   transform: translate(80px, -80px );
   transition: 1s;
 }
+
 
