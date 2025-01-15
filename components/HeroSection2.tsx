@@ -53,7 +53,7 @@ const HeroSection2 = () => {
           >
             <div className="absolute top-[50%] left-[40%] group">
               <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
-              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
+              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
             </div>
@@ -69,7 +69,7 @@ const HeroSection2 = () => {
     
             <div className="absolute bottom-[20%] left-[60%] group">
               <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
-              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
+              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
             </div>
@@ -83,7 +83,7 @@ const HeroSection2 = () => {
           >
             <div className="absolute top-[20%] right-[20%] group">
               <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
-              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
+              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
             </div>
@@ -97,33 +97,34 @@ const HeroSection2 = () => {
           >
             <div className="absolute top-[20%] left-[60%] group">
               <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
-              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-3rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
+              <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
             </div>
           </div>
         </SwiperSlide>
-        <div className="absolute bottom-[40px] md:right-10 flex w-[100%] justify-between px-[20px] md:px-0 gap-4 z-10 md:w-[156px]">
-        <div className="w-[70px] h-[70px] relative tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
-        <div className="absolute inset-0 hover hover:border tetradecagon2  hover:scale-[0.94] transition-transform">
+        <div className="absolute bottom-[40px] md:right-10 flex w-[100%] justify-between px-[20px] md:px-0 gap-4 z-10 md:w-[176px]">
+        <div className="w-[78px] h-[80px] relative tetradecagon1">
+              <div className="absolute inset-0 w-full h-full tetradecagon2 transition-transform">
+                <button
+                  onClick={() => swiperRef.current?.slidePrev()}
+                  className="bg-[#F7EAD7] text-[#AE6C3E]#AE6C3E hover:text-white flex items-center justify-center arrows text-3xl w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
+                >
+                  &larr;
+                </button>
+              </div>
+        </div>
+
+      <div className="w-[78px] h-[80px] relative  tetradecagon1">
+        <div className="absolute inset-0 w-full h-full tetradecagon2 transition-transform">
           <button
-          onClick={() => swiperRef.current?.slidePrev()}
-          className="bg-[#F7EAD7]  text-[#8e5733] hover:bg-[#8e5733] hover:text-white flex items-center justify-center tetradecagon transition"
-        >
-          &larr;
-        </button>
-          </div>
-          </div>
-          <div className="w-[70px] h-[70px] relative tetradecagon1 bg-[#AE6C3E] hover:bg-transparent">
-  <div className="absolute inset-0 hover hover:border tetradecagon2  hover:scale-[0.94] transition-transform">
-          <button
-          onClick={() => swiperRef.current?.slideNext()}
-          className="bg-[#F7EAD7] text-[#8e5733] hover:text-white flex items-center justify-center tetradecagon hover:bg-[#8e5733] transition"
-        >
-          &rarr;
-        </button>
-          </div>
-          </div>  
+            onClick={() => swiperRef.current?.slideNext()}
+            className="bg-[#F7EAD7] text-[#AE6C3E] hover:text-white flex items-center justify-center arrows text-3xl w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
+          >
+            &rarr;
+          </button>
+        </div>
+      </div>
       </div>
       </Swiper>
 

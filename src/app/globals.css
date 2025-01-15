@@ -33,6 +33,10 @@ body {
   src: url("/fonts/Emberly Regular.ttf") format("opentype");
  }
  @font-face {
+  font-family: "Questrial";
+  src: url("/fonts/Questrial-Regular.ttf") format("opentype");
+ }
+ @font-face {
   font-family: "MrEavesXLModNarOTBook";
   src: url("/fonts/MrEavesXLModNarOT-Book.ttf") format("opentype");
  }
@@ -72,6 +76,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.arrows{
+  font-family: 'Questrial';
 }
 
 .hovertext span {
@@ -718,31 +725,23 @@ h6{
 }
 
 .tetradecagon1 {
-  clip-path: polygon(
-    50% 0%,    /* Top center */
-    74% 6%,    /* Top-right (closer to center) */
-    93% 25%,   /* Right (near top) */
-    100% 50%,  /* Far-right center */
-    93% 75%,   /* Bottom-right */
-    74% 94%,   /* Bottom (near right) */
-    50% 100%,  /* Bottom-center */
-    26% 94%,   /* Bottom (near left) */
-    7% 75%,    /* Bottom-left */
-    0% 50%,    /* Far-left center */
-    7% 25%,    /* Top-left */
-    26% 6%,    /* Top (near left) */
-    50% 0%     /* Top-center */
-  );
+  
+  display: hidden;
+  
+}
+.tetradecagon1:hover {
+  background-image: url("/logos/Star1.svg");
   display: inline-block;
   
 }
 
 .tetradecagon {
-  width: 70px;
-  height: 70px;
-  background-color: #F7EAD7;
+  width: 80px;
+  height: 80px;
+  background-color: #E4C9AF;
   color: #AE6C3E;
   position: absolute;
+ 
   clip-path: polygon(
     50% 0%,    /* Top center */
     74% 6%,    /* Top-right (closer to center) */
@@ -757,7 +756,7 @@ h6{
     7% 25%,    /* Top-left */
     26% 6%,    /* Top (near left) */
     50% 0%     /* Top-center */
-  );
+  ); 
   
 }
 .tetradecagonl {
@@ -780,6 +779,10 @@ h6{
     50% 0%     /* Top-center */
   );
 }
+.chat{
+  height: 41px;
+  clip-path: polygon(42% 0, 100% 0%, 100% 13%, 100% 28%, 0 28%, 17% 15%, 17% 0);
+}
 
 .navdetail {
   color: #E4C9AF;
@@ -790,23 +793,7 @@ h6{
   line-height: 140%; /* 70px */
   letter-spacing: -0.5px;
 }
-.tetradecagon1, .tetradecagon2 {
-  clip-path: polygon(
-    50% 0%,    /* Top center */
-    74% 6%,    /* Top-right (closer to center) */
-    93% 25%,   /* Right (near top) */
-    100% 50%,  /* Far-right center */
-    93% 75%,   /* Bottom-right */
-    74% 94%,   /* Bottom (near right) */
-    50% 100%,  /* Bottom-center */
-    26% 94%,   /* Bottom (near left) */
-    7% 75%,    /* Bottom-left */
-    0% 50%,    /* Far-left center */
-    7% 25%,    /* Top-left */
-    26% 6%,    /* Top (near left) */
-    50% 0%     /* Top-center */
-  );
-}
+
 
 .oct-2ff2 {
   clip-path: polygon(3% 0%, 97% 0%, 100% 27.7%, 100% 72.3%, 97% 100%, 3% 100%, 0% 72.3%, 0% 27.7%);

@@ -8,25 +8,20 @@ export default {
   ],
   theme: {
     extend: {
-      clipPath: {
-        tetradecagon1: 'polygon( 50% 0%, 74% 6%, 93% 25%, 100% 50%,93% 75%, 74% 94%, 50% 100%,26% 94%, 7% 75%,  0% 50%,  7% 25%,  26% 6%,  50% 0% )',
-        
-      },
+      
       fontFamily: {
         Emberly: ["Emberly"],
         MrEavesXLModOT: ["MrEavesXLModOT-Bold"],
         MrEavesXLModOTReg: [" MrEavesXLModOT-Reg"],
         AutoGraph: ["autograf-personal-use-only"],
-        MrEavesXLModNarOTBook: ["MrEavesXLModNarOT-Book"]
+        MrEavesXLModNarOTBook: ["MrEavesXLModNarOT-Book"],
+        Questrial: ["Questrial"]
 
       },
       screens: {
-        md: "767px", //laptop
-        xl: "1440px", //desktop
-        
-        'lxl': "1920px", 
-        "10xl": "2880px", // ultra wide
+        'xxl': '1920px', 
       },
+     
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
