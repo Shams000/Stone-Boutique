@@ -1,5 +1,5 @@
 "use client";
-import { img } from "framer-motion/client";
+
 import { useState } from "react";
 
 export default function Navigation2() {
