@@ -186,9 +186,11 @@ const HeroSection2 = () => {
             </div>
           </div>
           </div>
-          <button className="form-btn absolute oct-btnform1 bg-[#AE6C3E] text-white">
+          
+          <div className="oct-btn-border top-[40px] w-[269px]">
+            <button className="form-btn absolute left-[1px] oct-btnform bg-[#AE6C3E] text-white">
             BOOK NOW
-          </button>
+          </button></div>
           <div className="absolute text-center flex flex-col justify-center top-[405px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
             <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /><div className="flex gap-[8px]"><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>

@@ -2,7 +2,7 @@
 
 const PerfectionSection = () => {
   return (
-    <section className="bg-[#f8f5f0] relative min-h-[1150px] justify-between gap-[80px] xl:justify-end xl:gap-[300px] xl:h-[100vh] xl:w-[100%] w-full flex flex-col items-center pt-[63px]">
+    <section className="bg-[#f8f5f0] relative min-h-[1150px]  justify-between gap-[80px] xl:justify-end xl:gap-[300px] xl:h-[100vh] xl:w-[100%] w-[100vw] flex flex-col items-center pt-[63px]">
       {/* Steps Section */}
       <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-[50px] xl:w-[941px] xl:grid-cols-4 md:gap-8">
         {/* Step 1 */}
@@ -69,7 +69,7 @@ const PerfectionSection = () => {
       </div>
 
       {/* Divider */}
-      <div className="bgstone relative w-full max-w-[1440px] mt-[210px] md:mt-[180px] h-[396px] md:h-[326px] xl:mt-[0px] pb-[48px] mb:pb-0">
+      <div className="bgstone relative w-[100vw] max-w-[1440px] mt-[210px] md:mt-[180px] h-[396px] md:h-[326px] xl:mt-[0px] pb-[48px] mb:pb-0">
       <div className="absolute top-[42%] md:top-[2%] right-[42%] md:right-[20%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
@@ -89,7 +89,7 @@ const PerfectionSection = () => {
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] md:gap-8 mt-[60px] md:mt-8">
-         <div className="oct-btn-border  md:w-[347px]">
+         <div className="oct-btn-border w-[323px] md:w-[347px]">
          <button className="bg-[#AE6C3E] oct-btn w-[321px] md:w-[345px] left-[1px] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
             Schedule a Private Consultation
           </button>

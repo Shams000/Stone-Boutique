@@ -582,31 +582,13 @@ h6{
   background: #ae6c3e;
   color: white;
   position: absolute;
-  top: 395px;
+  top: 1px;
   height: 50px; 
-  width: 269px;
+  width: 267px;
   transition: background-color 0.3s ease;
 }
-.oct-btnformnav {
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
-  background: #ae6c3e;
-  color: white;
-  position: absolute;
-  top: 400px;
-  height: 50px; 
-  width: 269px;
-  transition: background-color 0.3s ease;
-}
-.oct-btnform1 {
-  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
-  background: #ae6c3e;
-  color: white;
-  position: absolute;
-  top: 340px;
-  height: 50px; 
-  width: 269px;
-  transition: background-color 0.3s ease;
-}
+
+
 .oct-btnformfooter {
   clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #FFF;
