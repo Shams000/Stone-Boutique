@@ -105,25 +105,25 @@ const HeroSection2 = () => {
         </SwiperSlide>
         <div className="absolute bottom-[40px] md:right-10 flex w-[100%] justify-between px-[20px] md:px-0 gap-4 z-10 md:w-[176px]">
         <div className="w-[78px] h-[80px] relative tetradecagon1">
-              <div className="absolute inset-0 w-full h-full tetradecagon2 transition-transform">
+              
                 <button
                   onClick={() => swiperRef.current?.slidePrev()}
                   className="bg-[#F7EAD7] text-[#AE6C3E]#AE6C3E hover:text-white flex items-center justify-center arrows text-3xl w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
                 >
                   &larr;
                 </button>
-              </div>
+              
         </div>
 
       <div className="w-[78px] h-[80px] relative  tetradecagon1">
-        <div className="absolute inset-0 w-full h-full tetradecagon2 transition-transform">
+        
           <button
             onClick={() => swiperRef.current?.slideNext()}
             className="bg-[#F7EAD7] text-[#AE6C3E] hover:text-white flex items-center justify-center arrows text-3xl w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
           >
             &rarr;
           </button>
-        </div>
+        
       </div>
       </div>
       </Swiper>

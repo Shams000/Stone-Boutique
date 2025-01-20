@@ -22,20 +22,22 @@ const ExperienceSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="w-full py-0 gallery h-[100vh] xl:w-[100%]  min-h-[1160px] md:min-h-[960px] relative overflow-hidden bg-gray-100">
+    <section className="w-full py-0 gallery h-[100vh] xl:w-[100%]  min-h-[1160px] md:min-h-[750px] relative overflow-hidden bg-gray-100">
       {/* Header Section */}
      
 
       {/* Full-width Slider */}
-      <div className="relative gap-[200px] h-full flex items-center min-h-[1160px] md:min-h-[960px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
+      <div className="relative gap-[200px] h-full flex items-center min-h-[1160px] md:min-h-[750px]  md:pt-[84px] md:pb-[84px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
       <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[120px] h-full  xl:h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[40px] xl:left-[130px] xxl:left-[330px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
-
-        <button className="bg-[#AE6C3E] oct-btng text-white px-6 py-3 mt-6 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
+        
+        <div className="oct-btn-border w-[289px] mt-6">
+        <button className="bg-[#AE6C3E] oct-btng left-[1px] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e]">
           Shop Our Stones
         </button>
+        </div>
   <div className="absolute bottom-[30px] md:bottom-[10px] lg:bottom-[120px] left-[20px] md:left-10 flex gap-4 z-10">
   <div className="w-[78px] h-[80px] relative  tetradecagon1">
   

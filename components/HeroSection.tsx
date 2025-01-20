@@ -112,9 +112,11 @@ const HeroSection = () => {
       
       <div className=" w-full gap-[35px] px-[20px] xl:px-20 flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
       <div className=" flex-col flex w-full xl:flex-row gap-4 z-50">
-        <button className="oct-btn bg-[#AE6C3E] md:w-[347px] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF] ">
+        <div className="oct-btn-border  md:w-[349px] left-[1px]">
+        <button className="oct-btn bg-[#AE6C3E] md:w-[347px] w-full left-[1px] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF] ">
           Schedule a Private Consultation
         </button>
+        </div>
         <button className="bg-white oct-btn2 md:w-[347px] text-[#AE6C3E] px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Shop Our Stones
         </button>
@@ -122,25 +124,21 @@ const HeroSection = () => {
       <div className=" right-10 flex gap-4 z-10">
         
       <div className="w-[78px] h-[80px] relative tetradecagon1">
-  <div className="absolute inset-0 w-full h-full tetradecagon2 transition-transform">
     <button
       onClick={() => swiperRef.current?.slidePrev()}
       className="bg-[#F7EAD7] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
     >
       &larr;
     </button>
-  </div>
 </div>
 
 <div className="w-[78px] h-[80px] relative  tetradecagon1">
-  <div className="absolute inset-0 w-full h-full tetradecagon2 transition-transform">
     <button
       onClick={() => swiperRef.current?.slideNext()}
       className="bg-[#F7EAD7] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
     >
       &rarr;
     </button>
-  </div>
 </div>
         
       </div>

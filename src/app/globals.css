@@ -375,11 +375,20 @@ line-height: normal;
   color: #ae6c3e;
 }
 
+.oct-btn-border {
+  clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
+  background: #be8965;
+  height: 52px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
 .oct-btn {
   clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
   background: #ae6c3e;
   color: white;
   height: 50px;
+  top: 1px;
   transition: background-color 0.3s ease;
   font-size: 15px;
   font-style: normal;
@@ -388,6 +397,7 @@ line-height: normal;
   letter-spacing: 0.9px;
   text-transform: uppercase;
   cursor: pointer;
+  position: absolute;
 }
 
 .oct-btnnav {
@@ -413,6 +423,8 @@ line-height: normal;
   color: white;
   height: 50px;
   width: 287px;
+  position: absolute;
+  top: 1px;
   transition: background-color 0.3s ease;
   font-size: 15px;
   font-style: normal;
@@ -706,6 +718,10 @@ h6{
 
 .tetradecagon2 {
   background: transparent;
+  width: 85px;
+  height: 82px;
+  left: -2px;
+  top: -1px;
   clip-path: polygon(
     50% 0%,    /* Top center */
     74% 6%,    /* Top-right (closer to center) */
@@ -736,11 +752,13 @@ h6{
 }
 
 .tetradecagon {
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 82px;
   background-color: #E4C9AF;
   color: #AE6C3E;
   position: absolute;
+  left: -3px;
+  top: -1px;
  
   clip-path: polygon(
     50% 0%,    /* Top center */
@@ -758,6 +776,24 @@ h6{
     50% 0%     /* Top-center */
   ); 
   
+}
+.tetradecagonv {
+
+  clip-path: polygon(
+    50% 0%,    /* Top center */
+    74% 6%,    /* Top-right (closer to center) */
+    93% 25%,   /* Right (near top) */
+    100% 50%,  /* Far-right center */
+    93% 75%,   /* Bottom-right */
+    74% 94%,   /* Bottom (near right) */
+    50% 100%,  /* Bottom-center */
+    26% 94%,   /* Bottom (near left) */
+    7% 75%,    /* Bottom-left */
+    0% 50%,    /* Far-left center */
+    7% 25%,    /* Top-left */
+    26% 6%,    /* Top (near left) */
+    50% 0%     /* Top-center */
+  );
 }
 .tetradecagonl {
   width: 70px;

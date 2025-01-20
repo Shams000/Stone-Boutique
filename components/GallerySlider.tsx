@@ -24,7 +24,7 @@ const GallerySlider = () => {
   };
 
   return (
-    <section className="gallery w-full lg:w-[100%] xl:h-[100vh] md:min-h-[1100px] relative justify-center items-center md:pt-[60px] md:pb-[60px] 2xl:pt-[80px] 2xl:pb-[80px] ">
+    <section className="gallery w-full lg:w-[100%] xl:h-[100vh] md:min-h-[1100px] relative justify-center items-center md:pt-[60px] md:pb-[60px] 2xl:pt-[60px] 2xl:pb-[60px] ">
       {/* Vertical Text and Navigation */}
       <div className="relative xl:h-full h-full md:min-h-[960px] bottom-0 ">
       <div className="absolute left-0 min-h-[760px] md:left-[230px] top-1/2 bottom-1/2 gap-56 transform -translate-y-1/2 flex flex-col md:justify-between h-full gallery w-[140px] pt-[220px] md:pt-[150px] items-center z-10">
@@ -34,7 +34,6 @@ const GallerySlider = () => {
         <div className="flex flex-col items-center space-y-4">
       
           <div className="w-[78px] h-[80px] relative  tetradecagon1">
-            <div className="absolute inset-0 w-full h-full tetradecagon2  transition-transform">
             
             <button
                       onClick={scrollLeft}
@@ -42,18 +41,18 @@ const GallerySlider = () => {
                     >
                       ←
                     </button>
-              </div>
+
           </div>
 
         <div className="w-[78px] h-[80px] relative  tetradecagon1">
-          <div className="absolute  inset-0 w-full h-full tetradecagon2 transition-transform">
+          
           <button
                     onClick={scrollRight}
                     className="bg-[#F7EAD7] text-[#AE6C3E] arrows text-3xl hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
                   >
                     →
                   </button>
-          </div>
+          
 </div>
           
         </div>

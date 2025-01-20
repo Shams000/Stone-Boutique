@@ -25,8 +25,8 @@ const PerfectionSection = () => {
             className="w-[196px] h-[233px] rounded-t-full overflow-hidden bg-cover bg-center relative"
             style={{ backgroundImage: "url('/Rectangle 19.png')" }}
           >
-            <button className="absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] bg-white text-[#AE6C3E] text-[20px]  rounded-full w-[56px] h-[56px] p-4">
-              ▶
+            <button className="absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] bg-white text-[#AE6C3E] text-[20px] w-[56px] items-center h-[56px] flex justify-center tetradecagonv ">
+              <img src="/logos/Vector 13.svg" className="w-[16px] h-[21px]" alt="" />
             </button>
           </div>
           <div className="relative z-10 mt-[-50px]">
@@ -89,9 +89,11 @@ const PerfectionSection = () => {
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] md:gap-8 mt-[60px] md:mt-8">
-          <button className="bg-[#AE6C3E] oct-btn w-[321px] md:w-[345px] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
+         <div className="oct-btn-border  md:w-[347px]">
+         <button className="bg-[#AE6C3E] oct-btn w-[321px] md:w-[345px] left-[1px] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
             Schedule a Private Consultation
           </button>
+         </div>
           <button className="bg-white oct-btn2nd w-[321px] md:w-[345px] text-[#AE6C3E] hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
             Shop Our Stones
           </button>
