@@ -31,7 +31,7 @@ const GallerySlider = () => {
         <p className="transform w-[300px] eg -rotate-90 text-[#AE6C3E] font-bold uppercase tracking-wider">
           Explore Gallery
         </p>
-        <div className="flex flex-col items-center space-y-4">
+        <div className="flex flex-col items-center space-y-5">
       
           <div className="w-[78px] h-[80px] relative  tetradecagon1">
             
@@ -61,21 +61,21 @@ const GallerySlider = () => {
       {/* Gallery Content */}
       <div
         ref={scrollContainerRef}
-        className="flex gap-4 xl:h-full items-center min-h-[860px]  md:min-h-[960px] overflow-x-scroll relative scroll-smooth scrollbar-hidden"
+        className="flex gap-4 xl:h-full items-center min-h-[860px]  md:min-h-[960px] md:pb-[5px] overflow-x-scroll relative scroll-smooth scrollbar-hidden"
       >
         {/* Left Image */}
-        <div className="flex-shrink-0 left-[-290px]  md:h-full md:w-auto md:min-h-[960px] md:left-[-450px] lg:left-[-550px]  overflow-hidden relative">
+        <div className="flex-shrink-0 left-[-290px]  md:h-full md:w-auto md:min-h-[955px] md:left-[-450px] lg:left-[-550px]  overflow-hidden relative">
           <Image
             src="/Rectangle 15.png"
             alt="Gallery Item 1"
             width={400}
             height={600}
-            className="w-full  md:w-[700px] md:h-[960px] xl:h-full xl:w-auto md:object-cover"
+            className="w-full  md:w-[700px] md:h-[955px] xl:h-full xl:w-auto md:object-cover"
           />
         </div>
 
         {/* Middle Large Image */}
-        <div className="relative left-[-210px] min-h-full md:h-full md:w-auto md:min-h-[960px] md:left-[-350px] lg:left-[-430px] flex gap-[40px]">
+        <div className="relative left-[-210px] min-h-full md:h-full md:w-auto md:min-h-[955px] md:left-[-350px] lg:left-[-430px] flex gap-[40px]">
         <div className=" flex-shrink-0 md:w-auto h-[600px] md:h-auto overflow-hidden relative">
           <Image
             src="/rectangle 12 (1).png"

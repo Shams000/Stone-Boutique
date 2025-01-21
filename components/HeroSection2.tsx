@@ -201,7 +201,7 @@ const HeroSection2 = () => {
       
       </div>
       <div className="mx-auto h-[auto] py-[50px] flex items-center justify-center">
-          <div className="flex flex-col w-full justify-between md:justify-between items-start gap-4 px-[40px] xl:px-0 ">
+          <div className="flex flex-col w-full justify-between md:justify-between items-start gap-4 px-[20px] sm:px-[40px] xl:px-0 ">
             <div className="gap-[45px] items-center flex flex-col xl:flex-row"> 
                 <h6 className="headerpartner1">The <em>pinnacle</em> of the stone industry</h6>
             <div className="flex flex-col md:flex-row gap-[20px] lg:mt-[20px] justify-start">
