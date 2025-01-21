@@ -6,9 +6,9 @@ export default function NavigationMenu() {
 
   return (
     
-    <nav className="fixed octagonheader xl:h-[100vh] h-[70px] w-[100vw] xl:w-[70px] bg-gradient-to-r from-white to-[#AE6C3E] xl:bg-gradient-to-t xl:from-white xl:to-[#AE6C3E] flex items-center z-[100]">
-    <div className="absolute bottom-[2px] xl:right-[3px] xl:top-[0px] xl:h-[100vh] h-[68px] w-full xl:border-r-[#AE6C3E] bg-white xl:w-[68px] octagonheader00 ">
-      <div className="flex w-full xl:flex-col h-full xl:justify-between justify-between octagonheader00 xl:mr-[1px] items-center px-6 py-4">
+    <nav className="fixed octagonheader xl:h-[100vh] h-[70px] w-[100vw] xl:w-[70px] bg-gradient-to-tl from-[#AE6C3E]  to-white xl:from-white xl:to-[#AE6C3E] xl:bg-gradient-to-tl flex items-center z-[100]">
+    <div className="absolute bottom-[2px] right-[2px] xl:right-[3px] xl:top-[2px] xl:h-[100vh] h-[68px] w-full xl:border-r-[#AE6C3E] bg-white xl:w-[68px] octagonheader00 ">
+      <div className="flex w-full xl:flex-col h-full xl:justify-between justify-between octagonheader00 xl:mr-[1px] xl:mt-[1px] items-center px-6 py-4">
         {/* Logo Section */}
     <div className="xl:-rotate-90 xl:transform-gpu h-[20px] w-[350px] md:w-[650px]">
       {/* Show different logo orientation for large and small screens */}

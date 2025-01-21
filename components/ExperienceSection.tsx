@@ -22,7 +22,7 @@ const ExperienceSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="w-full py-0 gallery h-[100vh] xl:w-[100%]  min-h-[1160px] md:min-h-[750px] relative overflow-hidden bg-gray-100">
+    <section className="w-full py-0 gallery h-[100vh] xl:w-[100%]  min-h-[1160px] md:min-h-[750px] lg:min-h-[980px] xl:max-h-[100px] relative overflow-hidden bg-gray-100">
       {/* Header Section */}
      
 
@@ -79,7 +79,7 @@ const ExperienceSection = () => {
     {slides.map((slide, index) => (
         <SwiperSlide
             key={slide.id}
-            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[130px] md:ml-[520px] md:pl-[80px] xl:pl-[40px]  transition-transform duration-[800ms] ease-in-out ${
+            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[160px] md:ml-[520px] md:pl-[80px] xl:pl-[40px]  transition-transform duration-[800ms] ease-in-out ${
                 activeIndex === index
                     ? "scale-100 opacity-100"
                     : "scale-90 opacity-50"

@@ -11,7 +11,7 @@ const HeroSection = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
-    <section className="w-full  xl:w-[100%] h-[100vh] relative">
+    <section className="w-full min-h-[800px] xl:w-[100%] h-[100vh] relative">
       {/* Swiper Component */}
       <Swiper
         spaceBetween={0}
@@ -25,7 +25,7 @@ const HeroSection = () => {
           bulletActiveClass: "swiper-pagination-bullet-active",
         }}
         modules={[Autoplay, Pagination]}
-        className="h-[100vh]"
+        className="h-[100vh] min-h-[800px]"
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
 

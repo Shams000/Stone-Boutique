@@ -26,7 +26,7 @@ const HeroSection2 = () => {
           bulletActiveClass: "swiper-pagination-bullet-active",
         }}
         modules={[Autoplay, Pagination]}
-        className="h-[100vh]"
+        className="h-[100vh] min-h-[869px]"
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
 
