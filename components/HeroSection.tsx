@@ -1,9 +1,10 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/effect-fade"; //  Import Fade CSS
 import { useRef } from "react";
 import { Swiper as SwiperCore } from "swiper";
 
@@ -24,34 +25,22 @@ const HeroSection = () => {
           bulletClass: "swiper-pagination-bullet",
           bulletActiveClass: "swiper-pagination-bullet-active",
         }}
-        modules={[Autoplay, Pagination]}
+        effect="fade" //  Ensure fade effect is enabled
+        fadeEffect={{ crossFade: true }} // Smooth transition
+        modules={[Autoplay, Pagination, EffectFade]} // Add EffectFade module
         className="h-[100vh] min-h-[800px]"
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
-
-          // Animate pagination dots on slide change
-          swiper.on("slideChange", () => {
-            const activeIndex = swiper.realIndex % swiper.slides.length;
-            const bulletSize = 24; // Approx size of each bullet, including spacing
-            const offset = activeIndex * bulletSize;
-            const paginationEl = document.querySelector(
-              ".swiper-pagination"
-            ) as HTMLElement;
-            if (paginationEl) {
-              paginationEl.style.transform = `translateX(-${offset}px)`;
-              paginationEl.style.transition = "transform 0.5s ease-in";
-            }
-          });
         }}
       >
         {/* Slides */}
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Hero Slider.jpg')" }}
           >
-            <div className="absolute top-[50%] left-[50%] group">
-              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+            <div className="absolute pulse-button top-[50%] left-[50%] group">
+              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px] pulse-button hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -61,11 +50,11 @@ const HeroSection = () => {
 
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Hero Slider2.jpg')" }}
           >
-            <div className="absolute top-[40%] left-[25%] group">
-              <div className="w-[70px] h-[70px] z-10  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+            <div className="absolute pulse-button top-[40%] left-[25%] group">
+              <div className="w-[70px] h-[70px] z-10  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -75,11 +64,11 @@ const HeroSection = () => {
 
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Hero Slider3.jpg')" }}
           >
-            <div className="absolute top-[20%] left-[60%] group">
-              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+            <div className="absolute pulse-button top-[20%] left-[60%] group">
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -89,7 +78,7 @@ const HeroSection = () => {
 
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Hero Slider4.jpg')" }}
           >
             

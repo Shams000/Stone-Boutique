@@ -1,11 +1,14 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import { useRef } from "react";
 import { Swiper as SwiperCore } from "swiper";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
+import "swiper/css/effect-fade"; //  Import Fade CSS
+
 
 const HeroSection2 = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
@@ -25,34 +28,22 @@ const HeroSection2 = () => {
           bulletClass: "swiper-pagination-bullet",
           bulletActiveClass: "swiper-pagination-bullet-active",
         }}
-        modules={[Autoplay, Pagination]}
+        effect="fade" //  Ensure fade effect is enabled
+        fadeEffect={{ crossFade: true }} //  Smooth transition
+        modules={[Autoplay, Pagination, EffectFade]} //  Add EffectFade module
         className="h-[100vh] min-h-[869px]"
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
-
-          // Animate pagination dots on slide change
-          swiper.on("slideChange", () => {
-            const activeIndex = swiper.realIndex % swiper.slides.length;
-            const bulletSize = 24; // Approx size of each bullet, including spacing
-            const offset = activeIndex * bulletSize;
-            const paginationEl = document.querySelector(
-              ".swiper-pagination"
-            ) as HTMLElement;
-            if (paginationEl) {
-              paginationEl.style.transform = `translateX(-${offset}px)`;
-              paginationEl.style.transition = "transform 0.8s ease-in-out";
-            }
-          });
         }}
       >
         {/* Slides */}
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Rectangle 1.jpg')" }}
           >
             <div className="absolute top-[50%] left-[40%] group">
-              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -63,12 +54,12 @@ const HeroSection2 = () => {
 
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Rectangle 2.jpg')" }}
           >
     
             <div className="absolute bottom-[20%] left-[60%] group">
-              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -78,11 +69,11 @@ const HeroSection2 = () => {
 
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Rectangle 3.jpg')" }}
           >
             <div className="absolute top-[20%] right-[20%] group">
-              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -92,11 +83,11 @@ const HeroSection2 = () => {
 
         <SwiperSlide>
         <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative transition-transform duration-[1s] ease-in-out"
+            className="h-full bg-cover bg-center flex items-center justify-center relative"
             style={{ backgroundImage: "url('/Rectangle 4.jpg')" }}
           >
             <div className="absolute top-[20%] left-[60%] group">
-              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px] hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100 absolute top-[-2rem] left-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>

@@ -85,7 +85,7 @@ const GallerySlider = () => {
             className="h-full md:w-[338px] md:h-full xl:w-full w-auto"
           />
           <div className="absolute top-[50%] left-[50%] group">
-              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -104,7 +104,7 @@ const GallerySlider = () => {
               className="w-full xl:h-full xl:w-full  md:h-full md:w-[358px] md:object-cover"
             />
             <div className="absolute top-[50%] left-[50%] group">
-              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -121,7 +121,7 @@ const GallerySlider = () => {
               className="w-full md:md:w-[358px]  xl:h-full xl:w-full md:h-full "
             />
             <div className="absolute top-[50%] left-[50%] group">
-              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -139,7 +139,7 @@ const GallerySlider = () => {
             className="w-full md:h-full md:w-[700px] xl:h-full xl:w-auto h-[600px] md:object-cover"
           />
           <div className="absolute top-[50%] left-[50%] group">
-              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 " alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
@@ -154,7 +154,7 @@ const GallerySlider = () => {
             className="w-full md:h-full md:w-[700px xl:h-full xl:w-auto h-[600px] md:object-cover"
           />
           <div className="absolute top-[50%] left-[50%] group">
-              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
+              <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
               </div>
