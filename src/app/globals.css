@@ -1248,11 +1248,31 @@ h6{
   animation: pulse 5s ease-out forwards;
 }
 .SwiperSlide {
-  opacity: 0.2;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.SwiperSlide-active {
+  opacity: 1;
+}
+.SwiperSlide.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.SwiperSlide:not(.swiper-slide-active) {
+  opacity: 0.4;
+  transform: scale(0.98);
+}
+
+.SwiperSlide-prev,
+.SwiperSlide-next {
+  opacity: 0.5; /* Slight visibility for adjacent slides */
   transition: opacity 5s ease-in-out;
 }
 
 .SwiperSlide:active {
-  opacity: 0.1;
+  opacity: 0.8; /* Softer effect when clicked */
 }
+
 

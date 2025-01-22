@@ -27,7 +27,7 @@ const HeroSection = () => {
         }}
         effect="fade" //  Ensure fade effect is enabled
         fadeEffect={{ crossFade: true }} // Smooth transition
-        modules={[Autoplay, Pagination, EffectFade]} // Add EffectFade module
+        modules={[Autoplay, Pagination, EffectFade]} //  Add EffectFade module
         className="h-[100vh] min-h-[800px]"
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
