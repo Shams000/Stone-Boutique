@@ -26,10 +26,11 @@ export default function Navigation2() {
 
   return (
     <div className="top-right-nav flex gap-[20px]">
-        
-        <button className="oct-btnnav right-[100px] md:top-[100px] xl:top-[16px] hidden md:inline-block fixed bg-[#AE6C3E] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
+        <div className="oct-btnnav-border right-[100px] md:top-[100px] xl:top-[16px] md:w-[345px]">
+        <button className="oct-btnnav  hidden md:inline-block bg-[#AE6C3E] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
           Schedule a Private Consultation
         </button>
+        </div>
         
         <button className="menu-toggle top-[80px] md:top-[16px] right-[80px] inline-block md:hidden tetradecagonl" onClick={toggleConsultMenu}>
         <img src="/logos/calendar.svg" alt="" />

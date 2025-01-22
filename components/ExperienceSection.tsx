@@ -1,12 +1,11 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay, EffectFade } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { useRef, useState } from "react";
 import { Swiper as SwiperCore } from "swiper";
-import "swiper/css/effect-fade"; //  Import Fade CSS
 
 const slides = [
   { id: 1, image: "logos/Group 8 (2).svg", title: "Winnetka" },
@@ -63,9 +62,7 @@ const ExperienceSection = () => {
         </div>
       </div>
       <Swiper
-    modules={[Navigation, Autoplay, EffectFade]}
-    effect="fade" //  Ensure fade effect is enabled
-    fadeEffect={{ crossFade: true }} // Smooth transition
+    modules={[Navigation, Autoplay]}
     navigation={{
         prevEl: ".custom-prev",
         nextEl: ".custom-next",
@@ -82,7 +79,7 @@ const ExperienceSection = () => {
     {slides.map((slide, index) => (
         <SwiperSlide
             key={slide.id}
-            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[160px] md:ml-[520px] md:pl-[80px] xl:pl-[40px] ${
+            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[160px] md:ml-[520px] md:pl-[80px] xl:pl-[40px]  transition-transform duration-[800ms] ease-in-out ${
                 activeIndex === index
                     ? "scale-100 opacity-100"
                     : "scale-90 opacity-50"
