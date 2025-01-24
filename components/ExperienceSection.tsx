@@ -28,7 +28,7 @@ const ExperienceSection = () => {
 
       {/* Full-width Slider */}
       <div className="relative gap-[200px] h-full flex items-center min-h-[1160px] md:min-h-[750px]  md:pt-[84px] md:pb-[84px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
-      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[120px] h-full  xl:h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[40px] xl:left-[130px] xxl:left-[330px] text-left">
+      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[120px] h-full  xl:h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[100px] xl:left-[130px] xxl:left-[330px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
@@ -72,14 +72,14 @@ const ExperienceSection = () => {
     slidesPerView={"auto"} /* Show all slides in a queue */
     centeredSlides={true} /* Center the active slide */
     spaceBetween={0}
-    className="xl:pl-[70px] md:mt-0 mt-[160px] pl-[180px] md:pl-[380px] h-[full]" /* Added class */
+    className="lg:pl-[70px] md:mt-0 mt-[160px] pl-[180px] md:pl-[0px] h-[full]" /* Added class */
     onSwiper={(swiper) => (swiperRef.current = swiper)}
     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
 >
     {slides.map((slide, index) => (
         <SwiperSlide
             key={slide.id}
-            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[160px] md:ml-[520px] md:pl-[80px] xl:pl-[40px]  transition-transform duration-[800ms] ease-in-out ${
+            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[160px] md:ml-[640px] md:pl-[80px] xl:pl-[40px] transition-transform duration-[800ms] ease-in-out ${
                 activeIndex === index
                     ? "scale-100 opacity-100"
                     : "scale-90 opacity-50"
@@ -100,7 +100,7 @@ const ExperienceSection = () => {
                 <h3 className=" mt-[-40px] text-left exsl">
                     {slide.title}
                 </h3>
-                <div className="flex w-full justify-between">
+                <div className="flex w-full xl:pl-[8px] justify-between">
                   <p className=" text-left exslp">
                 Shop this Stone
                 </p>
