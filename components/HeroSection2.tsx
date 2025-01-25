@@ -14,7 +14,7 @@ const HeroSection2 = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
-    <section className="w-full min-h-[869px] flex flex-col xl:w-[100%] relative">
+    <section className="w-full bg-white min-h-[869px] flex flex-col xl:w-[100%] relative">
       {/* Swiper Component */}
       <div>
       <Swiper
