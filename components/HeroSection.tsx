@@ -99,7 +99,7 @@ const HeroSection = () => {
         </h1> */}
        
       
-      <div className=" w-full gap-[35px] px-[20px] xl:px-20 flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
+      <div className=" w-full gap-[35px] px-[20px] xl:pl-[100px] xl:pr-[80px] flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
       <div className=" flex-col flex w-full xl:flex-row gap-4 z-50">
         <div className="oct-btn-border  md:w-[349px]">
         <button className="oct-btn bg-[#AE6C3E] md:w-[347px] w-full left-[1px] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF] ">
@@ -115,7 +115,7 @@ const HeroSection = () => {
       <div className="w-[78px] h-[80px] relative tetradecagon1">
     <button
       onClick={() => swiperRef.current?.slidePrev()}
-      className="bg-[#F7EAD7] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
+      className="bg-[#E4C9AF] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
     >
       &larr;
     </button>
@@ -124,7 +124,7 @@ const HeroSection = () => {
 <div className="w-[78px] h-[80px] relative  tetradecagon1">
     <button
       onClick={() => swiperRef.current?.slideNext()}
-      className="bg-[#F7EAD7] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
+      className="bg-[#E4C9AF] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
     >
       &rarr;
     </button>
@@ -134,7 +134,7 @@ const HeroSection = () => {
       
       </div>
       </div>
-      <div className="absolute bottom-[280px] xl:bottom-[120px] left-[20px] md:left-10 xl:left-20 z-50">
+      <div className="absolute bottom-[280px] xl:bottom-[120px] left-[20px] md:left-10 xl:left-[100px] z-50">
         <h1 className="hs text-white">
         Introducing <br />
         <span>a curated</span> selection of <br /> luxury tile
@@ -215,7 +215,7 @@ const HeroSection = () => {
           </button></div>
           <div className="absolute flex flex-col text-center justify-center top-[460px]">
             <h6>1532 Slocum St, Dallas, Texas 75207</h6>
-            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique,</h6></div><div className="flex gap-[8px]"> <hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
+            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (3).svg" alt="" /><h6>info@stone.boutique</h6></div><div className="flex gap-[8px]"> <hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /><img src="/logos/icon/vector (2).svg" alt="" /><h6>(972) 635-4000</h6></div>  </div>
           </div>
         </form>
         </div>

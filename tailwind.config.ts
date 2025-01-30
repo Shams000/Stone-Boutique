@@ -10,7 +10,8 @@ export default {
     extend: {
       
       fontFamily: {
-        Emberly: ["Emberly"],
+        Emberly: ["Emberly-Regular"],
+        EmberlyItalic: ["Emberly-Mediumit.ttf"],
         MrEavesXLModOT: ["MrEavesXLModOT-Bold"],
         MrEavesXLModOTReg: [" MrEavesXLModOT-Reg"],
         AutoGraph: ["autograf-personal-use-only"],

@@ -69,8 +69,8 @@ const PerfectionSection = () => {
       </div>
 
       {/* Divider */}
-      <div className="bgstone relative w-[100vw] max-w-[1440px] mt-[210px] md:mt-[180px] h-[396px] md:h-[326px] xl:mt-[0px] pb-[48px] mb:pb-0">
-      <div className="absolute top-[42%] md:top-[2%] right-[42%] md:right-[20%] group">
+      <div className="bgstone relative w-[100vw] max-w-[1440px] mt-[210px] md:mt-[180px] h-[396px] xl:bottom-[-80px] md:h-[326px] xl:h-[390px] xl:mt-[0px] pb-[48px] mb:pb-0">
+      <div className="absolute top-[46%] md:top-[2%] right-[39%] md:right-[20%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
               <p className="hovertext">Shop <br /><span>Arabescato Extra</span></p>
@@ -78,17 +78,17 @@ const PerfectionSection = () => {
             </div>
      
 
-        <div className="mt-[-170px] md:mt-[-210px] md:mb-[0px] mb-[180px]  xl:mt-[-200px]">
+        <div className="mt-[-150px] md:mt-[-210px] md:mb-[0px] mb-[180px]  xl:mt-[-200px]">
           {/* Title Section */}
         <div className="text-center">
-          <h2 className="perfection">A Passion for <br /> <span className="perfection2 text-[100px] md:text-[180px]">Perfection</span></h2>
-          <p className="text-xl pr1 italic text-[#AE6C3E] md:mt-4">
-          — In our industry, <br /> <span className="pr2">with our products, for our clients</span>
+          <h2 className="perfection">A passion for <br /> <span className="perfection2 text-[100px] md:text-[180px]">perfection</span></h2>
+          <p className="text-xl pr1 italic text-[#AE6C3E] font-normal md:font-medium md:mt-4">
+          — In our industry, <br /> <span className="pr2 font-normal md:font-medium">with our products, for our clients</span>
           </p>
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] md:gap-8 mt-[60px] md:mt-8">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] md:gap-8 mt-[40px] md:mt-8">
          <div className="oct-btn-border w-[323px] md:w-[347px]">
          <button className="bg-[#AE6C3E] oct-btn w-[321px] md:w-[345px] left-[1px] text-white hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF]">
             Schedule a Private Consultation

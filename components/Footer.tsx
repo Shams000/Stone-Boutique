@@ -66,11 +66,11 @@ const Footer = () => {
         <div className="w-full px-0 xl:pl-[100px]">
         <div className="max-w-[1440px] w-full min-h-[730px] h-auto justify-center xl:justify-end mx-auto flex flex-col md:flex-row ">
           {/* Founders Section */}
-          <div className=" flex flex-col xl:flex-row w-full md:w-[62%] xl:w-[917px]">
+          <div className=" flex flex-col justify-between xl:flex-row w-full md:w-[62%] xl:w-[917px]">
           <div className=" left-0 gap-[14px] px-[20px] xl:px-0 mt-[55px] flex flex-col ">
             <h3 className="fhd text-[60px] text-left">Francisco & <br /> Margarita Acosta</h3>
             <h5 className="fhd2 text-[40px]">Founders</h5>
-            <p className="text-sm desc w-[240px] xl:w-[270px] text-left mb-6">
+            <p className="text-sm desc w-full xl:w-[270px] text-left mb-6">
             Margarita and Francisco are each natural stone connoisseurs in their own right. Together, they are visionaries and have become a driving force for innovation in their industry. They have re-imagined the way stone is sourced and purchased, bridging the gap between old-world access and modern convenience in a way others deemed impossible. <br /><br />
             Francisco and Margarita are thrilled to leverage the benefits of a strong national partner to help drive innovation and growth. Stone Boutique is committed to their focus on clients and providing the absolute finest quality materials on the market today.
             </p>
@@ -81,8 +81,8 @@ const Footer = () => {
           </div>
           
           <div className="flex justify-end xl:pt-[20px] w-full xl:w-[70%]">
-          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[263px] xl:w-[698px] xl:h-[710px]">
-          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[263px] xl:w-[698px] xl:h-[710px]" alt="" />
+          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[288px] xl:w-[698px] xl:h-[710px]">
+          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[288px] xl:w-[698px] xl:h-[710px]" alt="" />
           </div>
           </div>
           
@@ -101,8 +101,8 @@ const Footer = () => {
           <div className="oct-2ffinput">
           <input
             type="text"
-            placeholder="Name"
-            className="form-input3 p-4 focus:outline-none"
+            placeholder="John Doe"
+            className="form-input3 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>
@@ -112,8 +112,8 @@ const Footer = () => {
           <div className="oct-2ff">
             <input
             type="email"
-            placeholder="Email"
-            className="form-input2 p-4 focus:outline-none"
+            placeholder="yourname@domain.com"
+            className="form-input2 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>
@@ -122,8 +122,8 @@ const Footer = () => {
           <div className="oct-2ff">
           <input
             type="tel"
-            placeholder="Phone"
-            className="form-input2 p-4 focus:outline-none"
+            placeholder="012 123 1234"
+            className="form-input2 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>
@@ -147,8 +147,8 @@ const Footer = () => {
           <div className="oct-2ff2">
           <input
             type="text"
-            placeholder="Name"
-            className="form-input3 p-4 focus:outline-none"
+            placeholder="Jane Doe"
+            className="form-input3 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>
@@ -161,7 +161,7 @@ const Footer = () => {
         </form>
         <div className=" flex flex-col items-center justify-center mb-[30px] mt-[20px] top-[500px]">
             <h6 className="footaddress">1532 Slocum St <br /> Dallas, Texas 75207</h6>
-            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (5).svg" alt="" /><h6 className="footaddress">info@stone.boutique,</h6></div><hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /> <div className="flex gap-[8px]"><img src="/logos/icon/vector (4).svg" alt="" /><h6 className="footaddress">(972) 635-4000</h6></div></div>
+            <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (5).svg" alt="" /><h6 className="footaddress">info@stone.boutique</h6></div><hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /> <div className="flex gap-[8px]"><img src="/logos/icon/vector (4).svg" alt="" /><h6 className="footaddress">(972) 635-4000</h6></div></div>
           </div>
           <div className="w-full flex justify-center">
             <img src="/Vector (2).svg" alt="" /></div>

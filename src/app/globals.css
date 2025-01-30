@@ -26,11 +26,16 @@ body {
   color: var(--foreground);
   background: var(--background);
   overflow-x: hidden;
-  font-family: 'MrEavesXLModOT-Bold','MrEavesXLModOT-Reg', 'Emberly', 'MrEavesXLModNarOTBook', 'AutoGraph';
+  font-family: 'MrEavesXLModOT-Bold','MrEavesXLModOT-Reg', 'Emberly','EmberlyItalic', 'MrEavesXLModNarOTBook', 'AutoGraph';
 }
+
 @font-face {
+  font-family: "EmberlyItalic";
+  src: url("/fonts/Emberly-Mediumit.ttf") format("opentype");
+ }
+ @font-face {
   font-family: "Emberly";
-  src: url("/fonts/Emberly Regular.ttf") format("opentype");
+  src: url("/fonts/Emberly-Regular.ttf") format("opentype");
  }
  @font-face {
   font-family: "Questrial";
@@ -144,6 +149,13 @@ h1 {
   object-fit: cover;
   
 }
+.slid{
+  display: block;        /* Make the image a block element */  
+  margin-left: auto;    /* Auto margin on left */  
+  margin-right: auto;
+  background-position: center;
+  object-fit: cover;
+}
 .hs span{
   font-family: 'Emberly';
   color: #FFF;
@@ -204,7 +216,6 @@ h1 span {
   clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
   background: #E4C9AF;
   height: 455px;
-  width: 310px;
   filter: drop-shadow(0px 20px 40px rgba(48, 43, 37, 0.20));
 }
 
@@ -254,7 +265,7 @@ h1 span {
   height: 38px;
   background: #676057 0.50%;
   position: relative;
-  color: rgba(48, 43, 37, 0.30);
+  color: rgba(255, 255, 255, 0.3);
   font-family: 'MrEavesXLModOT-Reg';
   font-size: 14px;
   font-style: normal;
@@ -272,7 +283,7 @@ h1 span {
   height: 38px;
   background: #676057 0.50%;
   position: relative;
-  color: rgba(48, 43, 37, 0.30);
+  color: rgba(255, 255, 255, 0.3);
   font-family: 'MrEavesXLModOT-Reg';
   font-size: 14px;
   font-style: normal;
@@ -871,8 +882,7 @@ h6{
 .perfection2{
   color: #302B25;
   text-align: center;
-  font-family: 'Emberly';
-  
+  font-family: 'EmberlyItalic';
   font-style: italic;
   font-weight: 500;
   line-height: normal;
@@ -883,17 +893,17 @@ h6{
   font-family: 'Emberly';
   font-size: 60px;
   font-style: normal;
-  font-weight: 500;
+  
   line-height: 100%;
   letter-spacing: -0.6px;
 }
 .pr1{
   color: #F7EAD7;
   text-align: center;
-  font-family: 'Emberly';
+  font-family: 'EmberlyItalic';
   font-size: 60px;
   font-style: italic;
-  font-weight: 500;
+  
   line-height: 100%; /* 60px */
   letter-spacing: -0.6px;
 }
@@ -1053,7 +1063,7 @@ h6{
   height: 38px;
   background: #676057 0.50%;
   position: relative;
-  color: rgba(48, 43, 37, 0.30);
+  color: rgba(255, 255, 255, 0.3);
   font-family: 'MrEavesXLModOT-Reg';
   font-size: 14px;
   font-style: normal;
@@ -1090,7 +1100,7 @@ h6{
   height: 38px;
   background: #676057 0.50%;
   position: relative;
-  color: rgba(48, 43, 37, 0.30);
+  color: rgba(255, 255, 255, 0.3);
   font-family: 'MrEavesXLModOT-Reg';
   font-size: 14px;
   font-style: normal;
@@ -1101,6 +1111,7 @@ h6{
 
 
 }
+
 @media screen and (width > 1280px) {
   .octagonheader {
     clip-path: polygon(0% 0%, 85% 0%, 100% 2%, 100% 98%, 85% 100%, 0% 100%, 0% 75%, 0% 22%);

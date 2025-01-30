@@ -43,7 +43,7 @@ const ExperienceSection = () => {
   
     <button
       onClick={() => swiperRef.current?.slidePrev()}
-      className="bg-[#F7EAD7] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
+      className=" arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
     >
       &larr;
     </button>
@@ -53,7 +53,7 @@ const ExperienceSection = () => {
     <div className="w-[78px] h-[80px] relative  tetradecagon1">
         <button
           onClick={() => swiperRef.current?.slideNext()}
-          className="bg-[#F7EAD7] arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
+          className=" arrows text-3xl text-[#AE6C3E] hover:text-white flex items-center justify-center w-full h-full tetradecagon hover:bg-[#AE6C3E] transition-transform transform hover:scale-75"
         >
           &rarr;
         </button>
@@ -97,7 +97,7 @@ const ExperienceSection = () => {
                     alt={slide.title}
                     className="w-[640px] flex justify-between h-[713px] xl:h-[93%] xl:w-auto"
                 />
-                <h3 className=" mt-[-40px] text-left exsl">
+                <h3 className="mt-[-100px] md:mt-[-40px] text-left exsl">
                     {slide.title}
                 </h3>
                 <div className="flex w-full xl:pl-[8px] justify-between">
