@@ -17,6 +17,7 @@ export default function Home() {
       <NavigationMenu2 />
       <HeroSection />
       <ExperienceSection />
+      
       <HeroSection2 />
       <GallerySlider />
       <PerfectionSection/>

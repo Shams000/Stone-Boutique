@@ -64,7 +64,7 @@ const GallerySlider = () => {
         className="flex gap-4 xl:h-full items-center min-h-[860px]  md:min-h-[960px] md:pb-[5px] overflow-x-scroll relative scroll-smooth scrollbar-hidden"
       >
         {/* Left Image */}
-        <div className="flex-shrink-0 left-[-290px]  md:h-full md:w-auto md:min-h-[955px] md:left-[-450px] lg:left-[-550px]  overflow-hidden relative">
+        <div className="flex-shrink-0 left-[-290px]  md:h-full md:w-auto  md:left-[-450px] lg:left-[-550px]  overflow-hidden relative">
           <Image
             src="/Rectangle 15.png"
             alt="Gallery Item 1"
