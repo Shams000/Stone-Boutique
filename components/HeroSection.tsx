@@ -99,7 +99,7 @@ const HeroSection = () => {
         </h1> */}
        
       
-      <div className=" w-full gap-[35px] px-[20px] xl:pl-[100px] xl:pr-[80px] flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
+      <div className=" w-full gap-[35px] px-[20px] md:px-[44px] xl:pl-[100px] xl:pr-[80px] flex-col items-start xl:items-center  xl:justify-between flex xl:flex-row">
       <div className=" flex-col flex w-full xl:flex-row gap-4 z-50">
         <div className="oct-btn-border  md:w-[349px]">
         <button className="oct-btn bg-[#AE6C3E] md:w-[347px] w-full left-[1px] text-white px-6 py-3 hover:bg-[#F7EAD7] hover:text-[#ae6c3e] hover:border hover:border-[#E4C9AF] ">
