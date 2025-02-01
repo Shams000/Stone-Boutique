@@ -4,8 +4,9 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { Swiper as SwiperCore } from "swiper";
+
 
 const slides = [
   { id: 1, image: "logos/Group 8 (2).svg", title: "Winnetka" },
@@ -20,6 +21,16 @@ const slides = [
 const ExperienceSection = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isLaptop, setIsLaptop] = useState(window.innerWidth >= 1124);
+
+useEffect(() => {
+    const handleResize = () => {
+        setIsLaptop(window.innerWidth >= 1024); // Check if screen is laptop size (lg: ≥1024px)
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+}, []);
 
   return (
     <section className="w-full py-0 gallery h-[100vh] xl:w-[100%]  min-h-[1160px] md:min-h-[750px] lg:min-h-[980px] xl:max-h-[100px] relative overflow-hidden bg-gray-100">
@@ -28,7 +39,7 @@ const ExperienceSection = () => {
 
       {/* Full-width Slider */}
       <div className="relative gap-[200px] h-full flex items-center min-h-[1160px] md:min-h-[750px]  md:pt-[84px] md:pb-[84px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
-      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[120px] h-full  xl:h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[80px] lg:left-[100px] xl:left-[130px] xxl:left-[330px] text-left">
+      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[160px] xl:pt-[120px] mxl:pt-[180px] md:pt-[120px] h-full  xl:h-full md:min-h-[750px] w-[372px] flex flex-col items-start z-50 md:left-[80px] lg:left-[100px] xl:left-[130px] xxl:left-[330px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
@@ -38,7 +49,7 @@ const ExperienceSection = () => {
           Shop Our Stones
         </button>
         </div>
-  <div className="absolute bottom-[30px] md:bottom-[10px] lg:bottom-[120px] left-[20px] md:left-10 flex gap-4 z-10">
+  <div className="absolute bottom-[30px] md:bottom-[120px] lg:bottom-[120px] left-[20px] md:left-10 flex gap-4 z-10">
   <div className="w-[78px] h-[80px] relative  tetradecagon1">
   
     <button
@@ -72,41 +83,38 @@ const ExperienceSection = () => {
     slidesPerView={"auto"} /* Show all slides in a queue */
     centeredSlides={true} /* Center the active slide */
     spaceBetween={0}
-    className="lg:pl-[70px] md:mt-0 mt-[160px] pl-[180px] md:pl-[0px] h-[full]" /* Added class */
+    className="lg:pl-[70px] md:mt-0 mt-[160px] pl-[10px] md:pl-[0px] h-[full] py-auto xl:min-h-[810px] xl:pt-[80px] xl:flex xl:items-center md:h-[100vh]"
     onSwiper={(swiper) => (swiperRef.current = swiper)}
     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
 >
     {slides.map((slide, index) => (
-        <SwiperSlide
-            key={slide.id}
-            className={`flex gap-[80px] items-center absolute h-[810px] w-auto xl:ml-[40px] pl-[160px] md:ml-[640px] md:pl-[80px] xl:pl-[40px] transition-transform duration-[800ms] ease-in-out ${
-                activeIndex === index
-                    ? "scale-100 opacity-100"
-                    : "scale-90 opacity-50"
-            }`}
-            style={{
-                width: "640px",
-                height: "760px",
-                display: "flex",
-                justifyContent: "space-between xl:h-full  xl:w-auto",
-            }}
-        >
-            <div className="h-full overflow-hidden">
-                <img
-                    src={slide.image}
-                    alt={slide.title}
-                    className="w-[640px] flex justify-between h-[713px] xl:h-[93%] xl:w-auto"
-                />
-                <h3 className="mt-[-100px] md:mt-[-40px] text-left exsl">
-                    {slide.title}
-                </h3>
-                <div className="flex w-full xl:pl-[8px] justify-between">
-                  <p className=" text-left exslp">
-                Shop this Stone
-                </p>
-                <img src="/logos/arrowl.svg" /></div>
-            </div>
-        </SwiperSlide>
+        
+    <SwiperSlide
+    key={slide.id}
+    className={`flex gap-[80px] items-center absolute h-[810px]  md:h-[100vh] w-auto xl:w-auto 
+            xl:ml-[40px] pl-[20px] md:ml-[710px] md:pl-[120px] xl:pl-[40px] 
+            transition-transform duration-[800ms] ease-in-out
+            ${activeIndex === index ? "scale-100 opacity-100" : "scale-90 opacity-50"}
+        `}
+        
+        style={isLaptop ? { width: "740px", height: "860px", display: "flex", justifyContent: "space-around" } : {}}
+>
+    <div className="h-full xl:w-full overflow-hidden flex flex-col justify-start">
+        <img
+            src={slide.image}
+            alt={slide.title}
+            className="w-[640px] h-[713px]  md:h-[100vh] md:w-auto xl:w-auto md:object-fill"
+        />
+        <h3 className="mt-[-160px] md:mt-[-160px] xl:pl-[30px] mxl:mt-[-220px] xl:mt-[-15px] text-left exsl">
+            {slide.title}
+        </h3>
+        <div className="flex w-full xl:pl-[30px] justify-between items-center">
+          <p className=" text-left exslp">
+        Shop this Stone
+        </p>
+        <img src="/logos/arrowl.svg" /></div>
+    </div>
+</SwiperSlide>
     ))}
 </Swiper>
 

@@ -21,6 +21,7 @@ export default {
       },
       screens: {
         'xxl': '1920px', 
+        mxl: '800px',
       },
      
       colors: {
