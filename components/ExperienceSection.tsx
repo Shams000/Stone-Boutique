@@ -21,16 +21,20 @@ const slides = [
 const ExperienceSection = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isLaptop, setIsLaptop] = useState(window.innerWidth >= 1124);
+  const [isLaptop, setIsLaptop] = useState(false); // Initialize as false
 
-useEffect(() => {
-    const handleResize = () => {
-        setIsLaptop(window.innerWidth >= 1024); // Check if screen is laptop size (lg: ≥1024px)
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-}, []);
+  useEffect(() => {
+      if (typeof window !== "undefined") {
+          setIsLaptop(window.innerWidth >= 1124);
+          
+          const handleResize = () => {
+              setIsLaptop(window.innerWidth >= 1124);
+          };
+  
+          window.addEventListener("resize", handleResize);
+          return () => window.removeEventListener("resize", handleResize);
+      }
+  }, []);
 
   return (
     <section className="w-full py-0 gallery h-[100vh] xl:w-[100%]  min-h-[1160px] md:min-h-[750px] lg:min-h-[980px] xl:max-h-[100px] relative overflow-hidden bg-gray-100">
