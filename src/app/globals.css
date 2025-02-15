@@ -139,7 +139,7 @@ h1 {
   letter-spacing: -1px;
 }
 .bgstone{
-  background-image: url("/Group 150.png");
+  background-image: url("/Frame 23.svg");
   max-width: 1440px;
   width: 100%;
   display: block;        /* Make the image a block element */  
@@ -475,6 +475,10 @@ line-height: normal;
 }
 .gallery1{
   background: linear-gradient(180deg, #EBE9E6 0%, #CAC5BC 100%);
+}
+.expimg{
+  background-image: url("/Group 136.png");
+
 }
 .oct-btn2 {
   clip-path: polygon(3% 0%, 97% 0%, 100% 23%, 100% 77%, 97% 100%, 3% 100%, 0% 77%, 0% 23%);
@@ -1043,6 +1047,17 @@ h6{
   
   .gallery1{
     background: transparent;
+  }
+  .bgstone{
+    background-image: url("/Group 29.png");
+    max-width: 1440px;
+    width: 100%;
+    display: block;        /* Make the image a block element */  
+    margin-left: auto;    /* Auto margin on left */  
+    margin-right: auto;
+    background-position: center;
+    object-fit: cover;
+    
   }
 
 }

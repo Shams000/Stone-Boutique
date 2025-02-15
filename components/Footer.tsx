@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="w-full px-0 xl:pl-[100px]">
         <div className="max-w-[1440px] w-full min-h-[730px] h-auto justify-center xl:justify-end mx-auto flex flex-col md:flex-row ">
           {/* Founders Section */}
-          <div className=" flex flex-col justify-between xl:flex-row w-full md:w-[62%] xl:w-[917px]">
+          <div className=" flex flex-col xl:justify-between xl:flex-row w-full md:w-[60%] xl:w-[917px]">
           <div className=" left-0 gap-[14px] px-[20px] xl:px-0 mt-[55px] flex flex-col ">
             <h3 className="fhd text-[60px] text-left">Francisco & <br /> Margarita Acosta</h3>
             <h5 className="fhd2 text-[40px]">Founders</h5>
@@ -80,9 +80,9 @@ const Footer = () => {
             
           </div>
           
-          <div className="flex justify-end xl:pt-[20px] w-full xl:w-[70%]">
-          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[288px] xl:w-[698px] xl:h-[710px]">
-          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[288px] xl:w-[698px] xl:h-[710px]" alt="" />
+          <div className="flex justify-end mt-[-50px] xl:mt-[0px] xl:pt-[20px] w-full xl:w-[70%]">
+          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[288px] md:w-[365px] md:h-[388px] xl:w-[698px] xl:h-[710px]">
+          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[288px] md:w-[365px] md:h-[388px] xl:w-[698px] xl:h-[710px]" alt="" />
           </div>
           </div>
           
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
   
           {/* Contact Form Section */}
-          <div className="bg-[#676057] flex flex-col items-center min-h-[630px] max-h-[auto] w-full md:w-[38%] xl:w-[520px] pl-[20px] pr-[20px] pt-[48px] pb-[38px] xl:pl-[73px] xl:pr-[73px] xl:pt-[55px] xl:right-[0px]">
+          <div className="bg-[#676057] flex flex-col items-center min-h-[630px] max-h-[auto] w-full md:w-[40%] xl:w-[520px] pl-[20px] pr-[20px] pt-[48px] pb-[38px] xl:pl-[73px] xl:pr-[73px] xl:pt-[55px] xl:right-[0px]">
             <div className="w-full xl:w-[332px]">
             <h3 className="text-lg formf font-bold mb-6">Schedule a <br /> <em>Private Consultation</em></h3>
             <p className="text-sm formf2 text-center mb-6">A specialist will be in touch shortly.</p>
@@ -102,7 +102,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="John Doe"
-            className="form-input3 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
+            className="form-input3 placeholder-[#9F9991] font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>
@@ -113,7 +113,7 @@ const Footer = () => {
             <input
             type="email"
             placeholder="yourname@domain.com"
-            className="form-input2 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
+            className="form-input2 placeholder-[#9F9991] font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>
@@ -123,7 +123,7 @@ const Footer = () => {
           <input
             type="tel"
             placeholder="012 123 1234"
-            className="form-input2 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
+            className="form-input2 placeholder-[#9F9991] font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>
@@ -148,7 +148,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Jane Doe"
-            className="form-input3 placeholder-white placeholder-opacity-30 font-white text-opacity-30 p-4 focus:outline-none"
+            className="form-input3 placeholder-[#9F9991] font-white text-opacity-30 p-4 focus:outline-none"
           />
           </div>
           </div>

@@ -14,7 +14,7 @@ const HeroSection2 = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
-    <section className="w-full bg-white pt-[350px] md:pt-0 min-h-[869px] flex flex-col xl:w-[100%] relative">
+    <section className="w-full bg-white pt-[350px] md:pt-0 min-h-[569px] flex flex-col xl:w-[100%] relative">
       {/* Swiper Component */}
       <div>
       <Swiper
@@ -31,7 +31,7 @@ const HeroSection2 = () => {
         effect="fade" //  Ensure fade effect is enabled
         fadeEffect={{ crossFade: true }} //  Smooth transition
         modules={[Autoplay, Pagination, EffectFade]} //  Add EffectFade module
-        className="h-[100vh] min-h-[869px]"
+        className="xl:h-[100vh] h-[600px] xl:min-h-[869px]"
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
         }}
