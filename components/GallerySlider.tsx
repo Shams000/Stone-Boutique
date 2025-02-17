@@ -118,7 +118,7 @@ const GallerySlider = () => {
               alt="Gallery Item 4"
               width={230}
               height={273}
-              className="w-full md:md:w-[358px]  xl:h-full xl:w-full md:h-full "
+              className="w-full xl:h-full xl:w-full  md:h-full md:w-[358px] md:object-cover"
             />
             <div className="absolute top-[50%] left-[50%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
