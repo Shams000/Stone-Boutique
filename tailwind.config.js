@@ -9,6 +9,7 @@ module.exports = {
         'xxl': '1920px',
         'lxl': '1025px', 
         'mxl': '800px',
+        'sxl': '1022px',
       },
     },
   },
