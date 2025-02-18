@@ -147,7 +147,7 @@ const ExperienceSection = () => {
         <h3 className="mt-[-90px] md:mt-[-170px] xl:pl-[30px] mxl:mt-[-230px] lxl:mt-[-170px] xl:mt-[-15px] text-left exsl">
             {slide.title}
         </h3>
-        <div className="flex w-full xl:pl-[35px] justify-between items-center">
+        <div className="flex w-full xl:pl-[35px] mt-[-5px] md:mt-0 justify-between items-center">
           <p className=" text-left exslp">
         Shop this Stone
         </p>
