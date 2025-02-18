@@ -41,7 +41,7 @@ const ExperienceSection = () => {
       {/* Header Section */}
 
       {/* Full-width Slider */}
-      <div className="relative gap-[200px] h-full flex items-center xl:items-start min-h-[1160px] md:min-h-[750px] xl:min-h-[900px]  md:pt-[84px] md:pb-[84px] md:ml-[-20px] xl:m-0 xl:pl-[80px] w-full ml-auto">
+      <div className="relative gap-[200px] h-full flex items-center xl:items-start min-h-[1160px] md:min-h-[750px] xl:min-h-[900px]  md:pt-[84px] md:pb-[84px] md:ml-[-20px] xl:m-0 xl:pl-[60px] w-full ml-auto">
       <div className="absolute hidden md:inline-block lxl:hidden xl:h-full md:min-h-[750px] w-[670px] items-start z-50 md:left-[-600px] lxl:h-[980px] lxl:left-[100px] xl:left-[130px] xxl:left-[330px] text-left">
       <Swiper
     modules={[Navigation, Autoplay]}
@@ -78,7 +78,7 @@ const ExperienceSection = () => {
       
       </div>
 
-      <div className="absolute gallery1 pl-[20px] md:pl-[45px] pt-[60px] lg:pt-[170px] xl:pt-[20px] mxl:pt-[190px] md:pt-[130px] h-full  xl:h-full min-h-[850px] w-[372px] flex flex-col items-start z-50 md:left-[80px] lg:left-[100px] xl:left-[110px] xxl:left-[330px] text-left">
+      <div className="absolute gallery1 pl-[20px] md:pl-[25px] xl:pl-[45px] pt-[60px] lg:pt-[170px] xl:pt-[20px] mxl:pt-[190px] md:pt-[130px] h-full xl:h-full min-h-[850px] w-[352px] flex flex-col items-start z-50 md:left-[80px] lg:left-[100px] xl:left-[110px] xxl:left-[330px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
@@ -122,7 +122,7 @@ const ExperienceSection = () => {
     slidesPerView={"auto"} /* Show all slides in a queue */
     centeredSlides={true} /* Center the active slide */
     spaceBetween={0}
-    className="lg:pl-[70px] md:mt-0 pl-[10px] md:pl-[0px] h-[full] py-auto xl:py-0 xl:min-h-[910px] xl:pt-[80px] xl:flex xl:items-center md:h-[100vh] xl:h-full"
+    className="lg:pl-[50px] md:mt-0 pl-[10px] md:pl-[0px] h-[full] py-auto xl:py-0 xl:min-h-[910px] xl:pt-[80px] xl:flex xl:items-center md:h-[100vh] xl:h-full"
     onSwiper={(swiper) => (swiperRef.current = swiper)}
     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
 >
@@ -130,21 +130,21 @@ const ExperienceSection = () => {
         
     <SwiperSlide
     key={slide.id}
-    className={`flex gap-[80px] items-center absolute h-[810px]  md:h-[100vh] w-auto xl:w-auto 
-            xl:ml-[40px] pl-[20px] md:ml-[710px] md:pl-[120px] xl:pl-[40px] 
+    className={`flex gap-[80px] items-center md:absolute h-[100vh]  md:h-[100vh] w-auto xl:w-auto 
+            xl:ml-[40px] pl-[20px] md:ml-[710px] md:pl-[110px] xl:pl-[30px] 
             transition-transform duration-[800ms] ease-in-out
-            ${activeIndex === index ? "scale-100 opacity-100" : "scale-90 opacity-50"}
+            ${activeIndex === index ? "scale-100 opacity-100" : "scale-90 opacity-0 xl:opacity-50"}
         `}
         
         style={isLaptop ? { width: "740px", height: "860px", display: "flex", justifyContent: "space-around" } : {}}
 >
-    <div className="h-full xl:w-full overflow-hidden flex flex-col justify-start xl:justify-center">
+    <div className="w-[512px] mt-[170px] md:mt-[0px] md:w-[auto] md:h-full xl:w-full overflow-hidden flex flex-col justify-start xl:justify-center">
         <img
             src={slide.image}
             alt={slide.title}
-            className="w-[640px] h-[713px]  md:h-[100vh] xl:h-[713px] xl:object-contain md:w-auto xl:w-full md:object-fill"
+            className=" h-[718px]  md:h-[100vh] xl:h-[713px] object-fill xl:object-contain md:w-auto xl:w-full md:object-fill"
         />
-        <h3 className="mt-[-170px] md:mt-[-170px] xl:pl-[30px] mxl:mt-[-230px] lxl:mt-[-170px] xl:mt-[-15px] text-left exsl">
+        <h3 className="mt-[-90px] md:mt-[-170px] xl:pl-[30px] mxl:mt-[-230px] lxl:mt-[-170px] xl:mt-[-15px] text-left exsl">
             {slide.title}
         </h3>
         <div className="flex w-full xl:pl-[35px] justify-between items-center">

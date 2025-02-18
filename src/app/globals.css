@@ -119,6 +119,17 @@ h3 span {
   line-height: normal;
   letter-spacing: -0.295px;
 }
+.perfection3{
+  color: #302B25;
+
+text-align: center;
+font-family: 'Emberly';
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+}
 
 h1 {
   font-family: 'Emberly';
@@ -946,7 +957,7 @@ h6{
 .desc {
   color: #FFF;
   font-family: 'MrEavesXLModOT-Reg';
-  font-size: 13px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 130%; /* 16.9px */

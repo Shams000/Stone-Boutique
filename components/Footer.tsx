@@ -64,13 +64,13 @@ const Footer = () => {
         </div>
         {/* Main Footer Section */}
         <div className="w-full px-0 xl:pl-[100px]">
-        <div className="max-w-[1440px] w-full min-h-[730px] h-auto justify-center xl:justify-end mx-auto flex flex-col md:flex-row ">
+        <div className="max-w-[1440px] w-full min-h-[717px] h-auto justify-center xl:justify-end mx-auto flex flex-col md:flex-row ">
           {/* Founders Section */}
-          <div className=" flex flex-col xl:justify-between xl:flex-row w-full md:w-[60%] xl:w-[917px]">
-          <div className=" left-0 gap-[14px] px-[20px] xl:px-0 mt-[55px] flex flex-col ">
+          <div className=" flex flex-col xl:justify-between xl:flex-row w-full md:w-[57%]  xl:w-[917px]">
+          <div className=" left-0 md:w-full gap-[14px] px-[20px]  xl:pl-0 xl:pr-0 xl:px-0 md:pr-[48px] md:pl-[32px] mt-[55px] flex flex-col ">
             <h3 className="fhd text-[60px] text-left">Francisco & <br /> Margarita Acosta</h3>
             <h5 className="fhd2 text-[40px]">Founders</h5>
-            <p className="text-sm desc w-full xl:w-[270px] text-left mb-6">
+            <p className="text-sm desc w-full md:w-[335px] xl:w-[270px] text-left mb-6">
             Margarita and Francisco are each natural stone connoisseurs in their own right. Together, they are visionaries and have become a driving force for innovation in their industry. They have re-imagined the way stone is sourced and purchased, bridging the gap between old-world access and modern convenience in a way others deemed impossible. <br /><br />
             Francisco and Margarita are thrilled to leverage the benefits of a strong national partner to help drive innovation and growth. Stone Boutique is committed to their focus on clients and providing the absolute finest quality materials on the market today.
             </p>
@@ -81,8 +81,8 @@ const Footer = () => {
           </div>
           
           <div className="flex justify-end mt-[-50px] xl:mt-[0px] xl:pt-[20px] w-full xl:w-[70%]">
-          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[265px] h-[288px] md:w-[365px] md:h-[388px] xl:w-[698px] xl:h-[710px]">
-          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-50 w-[265px] h-[288px] md:w-[365px] md:h-[388px] xl:w-[698px] xl:h-[710px]" alt="" />
+          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[255px] h-[288px] md:w-[255px] md:h-[288px] xl:w-[698px] xl:h-[710px]">
+          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-90 w-[255px] h-[288px] md:w-[255px] md:h-[288px] xl:w-[698px] xl:h-[710px]" alt="" />
           </div>
           </div>
           
@@ -91,11 +91,11 @@ const Footer = () => {
           </div>
   
           {/* Contact Form Section */}
-          <div className="bg-[#676057] flex flex-col items-center min-h-[630px] max-h-[auto] w-full md:w-[40%] xl:w-[520px] pl-[20px] pr-[20px] pt-[48px] pb-[38px] xl:pl-[73px] xl:pr-[73px] xl:pt-[55px] xl:right-[0px]">
+          <div className="bg-[#676057] flex flex-col items-center min-h-[630px] max-h-[auto] w-full md:w-[43%] xl:w-[520px] pl-[20px] pr-[20px] pt-[48px] pb-[38px] md:pb-[18px] xl:pl-[73px] xl:pr-[73px] xl:pt-[55px] xl:right-[0px]">
             <div className="w-full xl:w-[332px]">
-            <h3 className="text-lg formf font-bold mb-6">Schedule a <br /> <em>Private Consultation</em></h3>
-            <p className="text-sm formf2 text-center mb-6">A specialist will be in touch shortly.</p>
-            <form className="w-full xl:w-[332px] flex flex-col gap-[10px]">
+            <h3 className="text-lg formf font-bold mb-5 md:mb-[5px]">Schedule a <br /> <em>Private Consultation</em></h3>
+            <p className="text-sm formf2 text-center mb-[30px] md:mb-[5px] xl:mb-[30px]">A specialist will be in touch</p>
+            <form className="w-full xl:w-[332px] flex flex-col gap-[10px] ">
           <div className="flex flex-col items-start justify-between">
             <h6 className="inputhead">Name</h6>
           <div className="oct-2ffinput">
@@ -159,7 +159,7 @@ const Footer = () => {
           
 
         </form>
-        <div className=" flex flex-col items-center justify-center mb-[30px] mt-[20px] top-[500px]">
+        <div className=" flex flex-col items-center justify-center mb-[30px] mt-[20px] md:mt-[5px] xl:mt-[20px] top-[500px]">
             <h6 className="footaddress">1532 Slocum St <br /> Dallas, Texas 75207</h6>
             <div className="flex gap-[8px]"><div className="flex gap-[8px]"><img src="/logos/icon/vector (5).svg" alt="" /><h6 className="footaddress">info@stone.boutique</h6></div><hr className="w-[1px] h-[17px] bg-[#E4C9AF]" /> <div className="flex gap-[8px]"><img src="/logos/icon/vector (4).svg" alt="" /><h6 className="footaddress">(972) 635-4000</h6></div></div>
           </div>

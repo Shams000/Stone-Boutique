@@ -132,7 +132,7 @@ const HeroSection2 = () => {
           Schedule <span>Private Consultation</span>
         </h3>
         </div>
-        <p className="form2 text-center">A specialist will be in touch shortly.</p>
+        <p className="form2 text-center">A specialist will be in touch</p>
         <form className="p-5 flex flex-col gap-[15px]">
           <div className="flex items-center justify-between">
             <h6 className="inph6">Name</h6>

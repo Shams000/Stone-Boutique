@@ -2,7 +2,7 @@
 
 const PerfectionSection = () => {
   return (
-    <section className="bg-[#f8f5f0] relative min-h-[1150px]  justify-between gap-[80px] xl:justify-end xl:gap-[300px] xl:h-[100vh] xl:w-[100%] w-[100vw] flex flex-col items-center pt-[63px]">
+    <section className="bg-[#f8f5f0] relative min-h-[1050px]  justify-between gap-[80px] xl:justify-end xl:gap-[170px] xl:h-[100vh] xl:w-[100%] w-[100vw] flex flex-col items-center pt-[63px]">
       {/* Steps Section */}
       <div className="grid grid-cols-1 items-center justify-center md:grid-cols-2 gap-[50px] xl:w-[941px] xl:grid-cols-4 md:gap-8">
         {/* Step 1 */}
@@ -69,7 +69,7 @@ const PerfectionSection = () => {
       </div>
 
       {/* Divider */}
-      <div className="bgstone relative w-[100vw] max-w-[1340px] mt-[260px] md:mt-[180px] h-[546px] xl:bottom-[-80px] md:h-[326px] xl:h-[390px] xl:mt-[0px]  mb:pb-0">
+      <div className="bgstone relative w-[100vw] max-w-[1340px] mt-[115px] md:mt-[180px] h-[546px] xl:bottom-[-80px] md:h-[326px] xl:h-[390px] xl:mt-[0px]  mb:pb-0">
       <div className="absolute top-[52%] md:top-[2%] right-[39%] md:right-[20%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
@@ -78,10 +78,11 @@ const PerfectionSection = () => {
             </div>
      
 
-        <div className="mt-[-130px] md:mt-[-210px] md:mb-[0px] mb-[100px]  xl:mt-[-200px]">
+        <div className="mt-[-130px] md:mt-[-210px] md:mb-[0px] mb-[100px] xl:mt-[-212px]">
           {/* Title Section */}
         <div className="text-center">
-          <h2 className="perfection">A passion for <br /> <span className="perfection2 text-[100px] md:text-[180px]">perfection</span></h2>
+        <h2 className="perfection3 xl:mt-[8px]">A passion for</h2>
+          <h2 className="perfection xl:mt-[-8px]"><span className="perfection2 text-[100px] md:text-[180px]">perfection</span></h2>
           <p className="text-xl px-[20px] md:px-0 mt-[50px] pr1 italic text-[#AE6C3E] font-normal md:font-medium md:mt-4">
           — In our industry, <br /> <span className="pr2 font-normal md:font-medium">with our products, for our clients</span>
           </p>
