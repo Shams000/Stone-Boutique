@@ -78,7 +78,7 @@ const ExperienceSection = () => {
       
       </div>
 
-      <div className="absolute gallery1 pl-[20px] md:pl-[25px] xl:pl-[45px] pt-[60px] lg:pt-[170px] xl:pt-[20px] mxl:pt-[190px] md:pt-[130px] h-full xl:h-full min-h-[850px] w-[352px] flex flex-col items-start z-50 md:left-[80px] lg:left-[100px] xl:left-[110px] xxl:left-[330px] text-left">
+      <div className="absolute gallery1 pl-[20px] md:pl-[25px] xl:pl-[45px] pt-[60px] lg:pt-[170px] xl:pt-[120px] mxl:pt-[190px] md:pt-[130px] h-full xl:h-full min-h-[850px] xl:top-0 xl:min-h-[750px] w-[352px] flex flex-col items-start z-50 md:left-[80px] lg:left-[100px] xl:left-[110px] xxl:left-[330px] text-left">
         <h2 className=" eh w-[332px]">
           Exclusive <em>stone</em> <br /> Revolutionary <br /> <em>experience.</em>
         </h2>
@@ -88,7 +88,7 @@ const ExperienceSection = () => {
           Shop Our Stones
         </button>
         </div>
-  <div className="absolute bottom-[30px] md:bottom-[120px] lg:bottom-[120px] left-[20px] md:left-10 flex gap-4 z-10">
+  <div className="absolute bottom-[30px] md:bottom-[120px] lg:bottom-[80px] left-[20px] md:left-10 flex gap-4 z-10">
   <div className="w-[78px] h-[80px] relative  tetradecagon1">
   
     <button
