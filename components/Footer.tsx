@@ -67,10 +67,10 @@ const Footer = () => {
         <div className="max-w-[1440px] w-full min-h-[717px] h-auto justify-center xl:justify-end mx-auto flex flex-col md:flex-row ">
           {/* Founders Section */}
           <div className=" flex flex-col xl:justify-between xl:flex-row w-full md:w-[57%]  xl:w-[917px]">
-          <div className=" left-0 md:w-full gap-[14px] px-[20px]  xl:pl-0 xl:pr-0 xl:px-0 md:pr-[48px] md:pl-[32px] mt-[55px] flex flex-col ">
-            <h3 className="fhd text-[60px] text-left">Francisco & <br /> Margarita Acosta</h3>
+          <div className=" left-0 xl:left-[0px] xl:ml-[40px] md:w-full gap-[14px] px-[20px]  xl:pl-0 xl:pr-0 xl:px-0 md:pr-[48px] md:pl-[32px] mt-[55px] flex flex-col ">
+            <h3 className="fhd text-[60px] xl:w-[316px] text-left">Francisco & <br /> Margarita Acosta</h3>
             <h5 className="fhd2 text-[40px]">Founders</h5>
-            <p className="text-sm desc w-full md:w-[335px] xl:w-[270px] text-left mb-6">
+            <p className="text-sm desc w-full md:w-[335px] xl:w-[229px] text-left mb-6">
             Margarita and Francisco are each natural stone connoisseurs in their own right. Together, they are visionaries and have become a driving force for innovation in their industry. They have re-imagined the way stone is sourced and purchased, bridging the gap between old-world access and modern convenience in a way others deemed impossible. <br /><br />
             Francisco and Margarita are thrilled to leverage the benefits of a strong national partner to help drive innovation and growth. Stone Boutique is committed to their focus on clients and providing the absolute finest quality materials on the market today.
             </p>
@@ -81,8 +81,8 @@ const Footer = () => {
           </div>
           
           <div className="flex justify-end mt-[-50px] xl:mt-[0px] xl:pt-[20px] w-full xl:w-[70%]">
-          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[255px] h-[288px] md:w-[255px] md:h-[288px] xl:w-[698px] xl:h-[710px]">
-          <img src="./adfdas 1.png"  className="absolute bottom-0 grayscale opacity-90 w-[255px] h-[288px] md:w-[255px] md:h-[288px] xl:w-[698px] xl:h-[710px]" alt="" />
+          <div className="mix-blend-lighten relative bottom-0 xl:top-0 right-0  bg-[#302B25] w-[255px] h-[288px] md:w-[255px] md:h-[288px] xl:ml-[-58px] xl:w-[660px] xl:h-[700px]">
+          <img src="./adfdas 1.png"  className="absolute bottom-0 right-0 xl:right-[40px] grayscale opacity-90 w-[255px] h-[288px] md:w-[255px] md:h-[288px] xl:ml-[-58px] xl:w-[660px] xl:h-[700px]" alt="" />
           </div>
           </div>
           

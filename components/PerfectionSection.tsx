@@ -69,7 +69,7 @@ const PerfectionSection = () => {
       </div>
 
       {/* Divider */}
-      <div className="bgstone relative w-[100vw] max-w-[1340px] mt-[115px] md:mt-[180px] h-[546px] xl:bottom-[-80px] md:h-[326px] xl:h-[390px] xl:mt-[0px]  mb:pb-0">
+      <div className="bgstone relative w-[100vw] max-w-[1340px] mt-[115px] md:mt-[180px] h-[546px] md:bottom-[-80px] xl:bottom-[-80px] md:h-[396px] xl:h-[390px] xl:mt-[0px]  mb:pb-0">
       <div className="absolute top-[52%] md:top-[2%] right-[39%] md:right-[20%] group">
               <div className="w-[70px] h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out"><img src="/logos/Arabescato Extra.svg"  className="w-[70px] pulse-button h-[70px]  hover:scale-110 transition-transform duration-300 ease-in-out" alt="" /></div>
               <div className="opacity-0 group-hover:opacity-100  absolute top-[-2rem] right-[-4rem] bg-white text-black p-2 shadow-lg transition-opacity duration-500">
